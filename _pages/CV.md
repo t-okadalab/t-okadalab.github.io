@@ -9,6 +9,8 @@ permalink: /cv/
 Associate Professor  
 Graduate School of Integrated Sciences for Life, Hiroshima University, Japan  
 
+I received my Ph.D. in Physics from Kyoto University (2013), after completing my M.Sc. (2009) and B.Sc. (2007) in Physics at the University of Tokyo. I was at RIKEN from 2014 to 2022, then held faculty positions at Kyoto University (2022–2025), and I am currently an Associate Professor at Hiroshima University (as of 2026). I was also a Visiting Researcher at UC Berkeley (Hallatschek Lab, 2018–2022).
+
 ---
 
 ## Education
@@ -25,6 +27,17 @@ Graduate School of Integrated Sciences for Life, Hiroshima University, Japan
 - **B.Sc. in Physics**  
   Faculty of Science, University of Tokyo  
   *2003 – 2007*
+
+---
+
+## Awards
+
+- 2017, the 12th Particle Physics Medal, Young Scientist Award in Theoretical Particle
+Physics (素粒子メダル奨励賞)
+
+- 2019, the 13th Young Scientist Award of the Physical Society of Japan (日本物理学会若手奨励賞)
+
+-  2020, the 15th Young Scientist Award of the Japanese Society for Mathematical Biology  (日本数理生物学会研究奨励賞)
 
 ---
 
