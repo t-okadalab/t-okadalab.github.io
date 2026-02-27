@@ -9,7 +9,7 @@ description: >-
 # If you publish on GitHub Pages (https://<user>.github.io), set url like below.
 # If you use a custom domain, replace it with your domain.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://takashiokd.github.io" # the base hostname & protocol for your site
+url: "https://t-okadalab.github.io" # the base hostname & protocol for your site
 
 # twitter_username: ""
 github_username: takashiokd
