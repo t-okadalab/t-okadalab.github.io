@@ -4,6 +4,9 @@ title: "Publications"
 permalink: /publications/
 ---
 
+1. G. Isacchini, T. Okada, C. Schmid, D. R. Popli, B. M. Peter, S. Schiffels and O. Hallatschek,  Inferring Migration Networks with Time-Lagged F2 Statistics, BioRxiv (2026).
+
+
 1. T. Okada, G. Isacchini, Q. Yu, & O. Hallatschek. (2025). Uncovering heterogeneous intercommunity disease transmission from neutral allele frequency time series. Proceedings of the National Academy of Sciences, 122(48), e2500663122.
 
 
