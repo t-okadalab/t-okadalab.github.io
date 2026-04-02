@@ -11,7 +11,7 @@ Graduate School of Integrated Sciences for Life, Hiroshima University, Japan
 
 
 ### Email
--  **takashi.okada.3z [at] kyoto-u.ac.jp**
+-  **takashiokada [at] hiroshima-u.ac.jp**
 
 
 ### Address

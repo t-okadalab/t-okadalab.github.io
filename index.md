@@ -48,7 +48,7 @@ layout: home
 
     <div style="font-size:0.9rem; opacity:0.75; margin-top:0.35rem;">
       Selected awards: 2017 Particle Physics Medal (Young Scientist), 2019 JPSJ Young Scientist Award, 2020 JSMB Young Scientist Award
-      (<a href="{{ '/CV/' | relative_url }}">CV</a>)
+      (<a href="{{ '/cv/' | relative_url }}">CV</a>)
     </div>
   </div>
 </div>
