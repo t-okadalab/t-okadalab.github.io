@@ -17,7 +17,7 @@ layout: home
       line-height:1.15;
       pointer-events:none;
     ">
-    aplotype-frequency dynamics of seasonal influenza virus
+    Haplotype-frequency dynamics of seasonal influenza virus
   </div>
 </div>
 
