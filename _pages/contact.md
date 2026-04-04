@@ -19,7 +19,7 @@ Graduate School of Integrated Sciences for Life, Hiroshima University, Japan
 
 <div class="en-only" markdown="1">
 Room B103, Science Building, Hiroshima University, 1-3-1 Kagamiyama, Higashi-Hiroshima, Hiroshima 739-8526, Japan  
-[Access to Higashi-Hiroshima Campus](https://www.hiroshima-u.ac.jp/access/higashihiroshima)
+[Access to Higashi-Hiroshima Campus](https://www.hiroshima-u.ac.jp/en/access)
 </div>
 <div class="ja-only" markdown="1">
 〒739-8526
