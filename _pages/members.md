@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Members"
+title_ja: "メンバー"
 permalink: /members/
 ---
 

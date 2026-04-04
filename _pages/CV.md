@@ -1,6 +1,7 @@
 ---
 layout: page
 title: CV
+title_ja: CV
 permalink: /cv/
 ---
 

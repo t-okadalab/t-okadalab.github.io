@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Publications"
+title_ja: "論文"
 permalink: /publications/
 ---
 
