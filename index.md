@@ -20,6 +20,8 @@ layout: home
     </div>
   </div>
 
+  <hr style="margin:0.8rem 0;">
+
    <div style="border:1px solid #e5e5e5; border-radius:14px; padding:14px; margin-top:0.8rem; max-width:56rem;">
     <div style="font-size:1.8rem;font-weight:600; opacity:1.;">
       <span class="ja-only">岡田　崇　</span>Takashi Okada
@@ -117,7 +119,9 @@ layout: home
     <li><span style="opacity:0.6;">2026.03</span>　学術変革領域研究（A）EPIC Assembly 進化情報アセンブリ 公募研究に採択されました。</li>
     <li><span style="opacity:0.6;">2026.01</span>　現代化学1月号に解説記事が掲載されました。</li>
     <li><span style="opacity:0.6;">2025.11</span>　カリフォルニア大学バークレー校との共同研究で、PNASに論文 <a href="https://www.pnas.org/doi/10.1073/pnas.2500663122" target="_blank">"Uncovering heterogeneous intercommunity disease transmission from neutral allele frequency time series"</a> が掲載されました。</li>
+    <li><span style="opacity:0.6;">2025.10</span>　国際オンラインセミナー <a href="https://researchseminars.org/seminar/AutocatalysisRN" target="_blank">Autocatalysis in reaction networks</a> で招待講演しました。</li>
     <li><span style="opacity:0.6;">2025.07</span>　ACMB-JSMB 2025で、Special Symposia "Dynamics and Structures of Biological Networks I, II, III" をorganizeしました。</li>
+    <li><span style="opacity:0.6;">2025.03</span>　国際オンラインセミナー <a href="https://researchseminars.org/seminar/MoRN" target="_blank">MoRN Seminar</a> (Mathematics of Reaction Networks) で招待講演しました。</li>
   </ul>
   <button id="news-toggle-btn" style="margin-top:0.4rem; background:none; border:none; color:#555; font-size:0.85rem; cursor:pointer; padding:0; display:none;">
     ▼ もっと見る
@@ -146,11 +150,9 @@ layout: home
     <span class="ja-only">最近の論文</span>
   </div>
   <ul style="font-size:0.9rem; line-height:1.7; margin:0; padding-left:1.2rem;">
-    <li>G. Isacchini, T. Okada, et al., Inferring Migration Networks with Time-Lagged F2 Statistics, <em>BioRxiv</em> (2026).</li>
-    <li>T. Okada, G. Isacchini, Q. Yu &amp; O. Hallatschek, Uncovering heterogeneous intercommunity disease transmission from neutral allele frequency time series, <em>PNAS</em> 122(48), e2500663122 (2025).</li>
-    <li>Y. J. Huang, T. Okada and A. Mochizuki, Uncovering Bifurcation Behaviors of Biochemical Reaction Systems from Network Topology, <em>Sci. Rep.</em> 15, 27596 (2025).</li>
-    <li>Q. Yu, J. Ascensao, T. Okada, et al., Lineage frequency time series reveal elevated levels of genetic drift in SARS-CoV-2 transmission in England, <em>PLoS Pathog.</em> (2024).</li>
-    <li>A. Hishida, T. Okada and A. Mochizuki, Patterns of change in regulatory modules of chemical reaction systems induced by network modification, <em>PNAS Nexus</em> 3, pgad441 (2024).</li>
+    {% for pub in site.data.publications limit:5 %}
+    <li>{{ pub }}</li>
+    {% endfor %}
   </ul>
   <p style="margin-top:0.6rem; font-size:0.9rem;">
     <a href="{{ '/publications/' | relative_url }}">
