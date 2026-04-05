@@ -10,7 +10,7 @@ layout: home
         <span class="ja-only">広島大学　大学院統合生命科学研究科<br>数理生命科学プログラム</span>
       </div>
       <h1 style="margin:0; font-size:2.2rem;">
-        <span class="en-only">Theoretical Biology Lab</span>
+        <span class="en-only">Theoretical Biology Group</span>
         <span class="ja-only">理論生命システム研究室</span>
       </h1>
     </div>
