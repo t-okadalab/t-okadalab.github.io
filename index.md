@@ -110,7 +110,7 @@ layout: home
   <div style="font-size:1.1rem; font-weight:600; margin-bottom:0.6rem;">
     News
   </div>
-  <ul id="news-list" style="font-size:0.9rem; line-height:1.7; margin:0; padding-left:1.2rem;">
+  <ul id="news-list" style="font-size:1rem; line-height:1.7; margin:0; padding-left:1.2rem;">
     <li><span style="opacity:0.6;">2026.04</span>　松尾直樹さん(B4)が研究室に加わりました。</li>
     <li><span style="opacity:0.6;">2026.04</span>　広島大学大学院統合生命科学研究科 数理生命科学プログラムに異動しました。</li>
     <li><span style="opacity:0.6;">2026.03</span>　カリフォルニア大学バークレー校との共同研究で、論文 <a href="https://www.biorxiv.org/content/10.64898/2026.03.12.710875v1" target="_blank">"Inferring Migration Networks with Time-Lagged F2 Statistics"</a> をBioRxivに掲載しました。</li>
@@ -147,7 +147,7 @@ layout: home
     <span class="en-only">Recent Publications</span>
     <span class="ja-only">最近の論文</span>
   </div>
-  <ul style="font-size:0.9rem; line-height:1.7; margin:0; padding-left:1.2rem;">
+  <ul style="font-size:1rem; line-height:1.7; margin:0; padding-left:1.2rem;">
     {% for pub in site.data.publications limit:5 %}
     <li>{{ pub }}</li>
     {% endfor %}
