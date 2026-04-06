@@ -7,7 +7,7 @@ permalink: /members/
 
 ## PI
 
-- 岡田崇 Takashi Okada (Associate Professor)
+- 岡田崇 Takashi Okada
 
 ## Students
 
