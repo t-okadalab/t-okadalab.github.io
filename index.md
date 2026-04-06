@@ -32,8 +32,6 @@ layout: home
     </div>
 
     <div style="font-size:0.9rem; opacity:0.75; margin-top:0.35rem;">
-      <span class="en-only">Selected awards: 2017 Particle Physics Medal (Young Scientist), 2019 JPSJ Young Scientist Award, 2020 JSMB Young Scientist Award</span>
-      <span class="ja-only">受賞歴：2017年 素粒子メダル奨励賞、2019年 日本物理学会若手奨励賞、2020年 日本数理生物学会若手奨励賞</span>
       (<a href="{{ '/cv/' | relative_url }}">CV</a>)
     </div>
   </div>
