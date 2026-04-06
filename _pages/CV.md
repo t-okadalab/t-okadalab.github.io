@@ -14,6 +14,18 @@ I received my Ph.D. in Physics from Kyoto University (2013), after completing my
 
 ---
 
+## Awards
+
+<div style="background:#f9f6e8; border-left:4px solid #c8a800; border-radius:6px; padding:0.8rem 1.2rem; margin-bottom:1rem;">
+
+- 2020, the 15th Young Scientist Award of the Japanese Society for Mathematical Biology (日本数理生物学会研究奨励賞)
+- 2019, the 13th Young Scientist Award of the Physical Society of Japan (日本物理学会若手奨励賞)
+- 2017, the 12th Particle Physics Medal, Young Scientist Award in Theoretical Particle Physics (素粒子メダル奨励賞)
+
+</div>
+
+---
+
 ## Education
 
 - **Ph.D. in Physics**  
@@ -28,17 +40,6 @@ I received my Ph.D. in Physics from Kyoto University (2013), after completing my
 - **B.Sc. in Physics**  
   Faculty of Science, University of Tokyo  
   *2003 – 2007*
-
----
-
-## Awards
-
-- 2017, the 12th Particle Physics Medal, Young Scientist Award in Theoretical Particle
-Physics (素粒子メダル奨励賞)
-
-- 2019, the 13th Young Scientist Award of the Physical Society of Japan (日本物理学会若手奨励賞)
-
--  2020, the 15th Young Scientist Award of the Japanese Society for Mathematical Biology  (日本数理生物学会研究奨励賞)
 
 ---
 
