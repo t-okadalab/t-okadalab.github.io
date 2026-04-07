@@ -55,9 +55,9 @@ permalink: /talks/
 
 1. "Robustness and Plasticity Emerging from Network Topology in Chemical Reaction Systems," **invited** (organizer of special symposia), ACMB-JSMB 2025, Kyoto, July 2025.
 
-1. "Network topology determines robustness and flexibility of chemical reaction systems," **invited**, [MoRN Seminar](https://researchseminars.org/seminar/MoRN) (Mathematics of Reaction Networks), March 2025.
+1. **invited**, [MoRN Seminar](https://researchseminars.org/seminar/MoRN) (Mathematics of Reaction Networks), March 2025.
 
-1. "Robustness and Plasticity Emerging from Network Topology in Chemical Reaction Systems," **invited**, [Autocatalysis in reaction networks seminar](https://researchseminars.org/seminar/AutocatalysisRN), October 2025.
+1. **invited**, [Autocatalysis in reaction networks seminar](https://researchseminars.org/seminar/AutocatalysisRN), October 2025.
 
 ---
 
