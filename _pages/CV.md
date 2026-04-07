@@ -8,7 +8,7 @@ permalink: /cv/
 ## Takashi Okada, PhD
 
 Associate Professor  
-Graduate School of Integrated Sciences for Life, Hiroshima University, Japan  
+<span class="en-only">[Graduate School of Integrated Sciences for Life, Hiroshima University, Japan](https://seeds.office.hiroshima-u.ac.jp/profile/en.f2d371be59eb4373520e17560c007669.html)</span><span class="ja-only">[広島大学大学院統合生命科学研究科](https://seeds.office.hiroshima-u.ac.jp/profile/ja.f2d371be59eb4373520e17560c007669.html)</span>  
 
 I received my Ph.D. in Physics from Kyoto University (2013), after completing my M.Sc. (2009) and B.Sc. (2007) in Physics at the University of Tokyo. I was at RIKEN from 2014 to 2022, then held faculty positions at Kyoto University (2022–2025), and I am currently an Associate Professor at Hiroshima University (as of 2026). I was also a Visiting Researcher at UC Berkeley (Hallatschek Lab, 2018–2022).
 
