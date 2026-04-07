@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Talks
-title_ja: 発表
+title_ja: Talks
 permalink: /talks/
 ---
 
