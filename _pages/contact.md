@@ -17,7 +17,7 @@ Graduate School of Integrated Sciences for Life, Hiroshima University, Japan
 -  **takashiokada [at] hiroshima-u.ac.jp**
 
 
-### Address
+<span style="font-size:1rem; font-weight:600;">Address</span>
 
 <div class="en-only" markdown="1">
 Room B103, Science Building, Hiroshima University, 1-3-1 Kagamiyama, Higashi-Hiroshima, Hiroshima 739-8526, Japan  
