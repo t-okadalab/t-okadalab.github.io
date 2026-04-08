@@ -7,8 +7,8 @@ permalink: /contact/
 
 
 
-**Theoretical Biology Lab**  
 <span style="font-size:1.3rem; font-weight:600;"><span class="en-only">Takashi Okada</span><span class="ja-only">岡田崇</span></span>  
+**Theoretical Biology Lab**  
 Graduate School of Integrated Sciences for Life, Hiroshima University, Japan 
 
 
