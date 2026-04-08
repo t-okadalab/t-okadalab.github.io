@@ -85,8 +85,8 @@ layout: home
 </div>
 
   <p style="margin-top:0.7rem; max-width:56rem; font-size:1rem;">
-    <span class="en-only">If you are interested in our research, feel free to <a href="{{ '/contact/' | relative_url }}">get in touch</a>.</span>
-    <span class="ja-only">研究に興味をお持ちの方は、お気軽に<a href="{{ '/contact/' | relative_url }}">ご連絡ください</a>。</span>
+    <span class="en-only">We welcome inquiries from prospective students, postdocs, and anyone interested in collaboration — feel free to <a href="{{ '/contact/' | relative_url }}">get in touch</a>.</span>
+    <span class="ja-only">学生さん・ポスドク・共同研究など、どなたでもお気軽に<a href="{{ '/contact/' | relative_url }}">ご連絡ください</a>。</span>
   </p>
 
   <!-- Quick links / CTAs -->
