@@ -7,24 +7,13 @@ $content-width: 1080px;
 /* 1) site-wide subtle background */
 
 body {
-  background:
-    repeating-linear-gradient(
-      98deg,
-      rgba(255,255,255,0)    0px,
-      rgba(255,255,255,0)    3px,
-      rgba(255,255,255,0.04) 3px,
-      rgba(255,255,255,0.04) 4px
-    ),
-    linear-gradient(
-      155deg,
-      #1a2235 0%,
-      #2e4060 18%,
-      #1e2e48 35%,
-      #3a5270 52%,
-      #1c2a42 68%,
-      #263850 84%,
-      #111824 100%
-    );
+  background: linear-gradient(
+    155deg,
+    #fffde7 0%,
+    #fff9c4 30%,
+    #fff3cd 60%,
+    #ffeaa0 100%
+  );
 }
 
 .page-content .wrapper {

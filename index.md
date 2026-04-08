@@ -84,6 +84,11 @@ layout: home
   </ul>
 </div>
 
+  <p style="margin-top:0.7rem; max-width:56rem; font-size:1rem;">
+    <span class="en-only">If you are interested in our research, feel free to <a href="{{ '/contact/' | relative_url }}">get in touch</a>.</span>
+    <span class="ja-only">研究に興味をお持ちの方は、お気軽に<a href="{{ '/contact/' | relative_url }}">ご連絡ください</a>。</span>
+  </p>
+
   <!-- Quick links / CTAs -->
   <p style="margin: 0.9rem 0 0.2rem 0; display:flex; gap:10px; flex-wrap:wrap;">
     <a href="{{ '/research/' | relative_url }}"
