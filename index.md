@@ -7,7 +7,7 @@ layout: home
     <div>
       <div style="font-size:1.4rem; margin-bottom:0.1rem;">
         <span class="en-only">Graduate School of Integrated Sciences for Life, Hiroshima University, Japan</span>
-        <span class="ja-only">広島大学　大学院統合生命科学研究科<br>数理生命科学プログラム</span>
+        <span class="ja-only"><a href="https://www.hiroshima-u.ac.jp/ilife/program-of-mathematical-life-sciences" target="_blank" style="text-decoration:none; color:inherit;">広島大学　大学院統合生命科学研究科<br>数理生命科学プログラム</a></span>
       </div>
       <h1 style="margin:0; font-size:2.2rem;">
         <span class="en-only">Theoretical Biology Group</span>
