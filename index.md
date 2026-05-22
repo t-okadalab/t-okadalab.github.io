@@ -125,6 +125,7 @@ layout: home
     <li><span style="opacity:0.6;">2026.04</span>　広島大学大学院統合生命科学研究科 数理生命科学プログラムに異動しました。</li>
     <li><span style="opacity:0.6;">2026.03</span>　カリフォルニア大学バークレー校との共同研究で、論文 <a href="https://www.biorxiv.org/content/10.64898/2026.03.12.710875v1" target="_blank">"Inferring Migration Networks with Time-Lagged F2 Statistics"</a> をBioRxivに掲載しました。</li>
     <li><span style="opacity:0.6;">2026.03</span>　学術変革領域研究（A）EPIC Assembly 進化情報アセンブリ 公募研究に採択されました。</li>
+    <li><span style="opacity:0.6;">2026.02</span>　論文 <a href="https://www.pnas.org/doi/10.1073/pnas.2500663122" target="_blank">"Uncovering heterogeneous intercommunity disease transmission from neutral allele frequency time series"</a> が、PNASの <a href="https://www.pnas.org/doi/10.1073/pnas.2533093123" target="_blank">Commentary</a> に取り上げられました。</li>
     <li><span style="opacity:0.6;">2026.01</span>　現代化学1月号に解説記事が掲載されました。</li>
     <li><span style="opacity:0.6;">2025.11</span>　カリフォルニア大学バークレー校・ハーバード大学との共同研究で、PNASに論文 <a href="https://www.pnas.org/doi/10.1073/pnas.2500663122" target="_blank">"Uncovering heterogeneous intercommunity disease transmission from neutral allele frequency time series"</a> が掲載されました。</li>
     <li><span style="opacity:0.6;">2025.10</span>　国際オンラインセミナー <a href="https://researchseminars.org/seminar/AutocatalysisRN" target="_blank">Autocatalysis in reaction networks</a> で招待講演しました。</li>
