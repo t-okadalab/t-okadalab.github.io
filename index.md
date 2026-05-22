@@ -16,7 +16,6 @@ layout: home
     </div>
     <div style="display:flex; align-items:center; gap:0.6rem;">
       <img src="{{ '/assets/images/hiroshima_mark.png' | relative_url }}" alt="Hiroshima University" style="height:144px; width:auto;">
-      <img src="{{ '/assets/images/hiroshima_phenix.png' | relative_url }}" alt="Hiroshima University Phenix" style="height:144px; width:auto;">
     </div>
   </div>
 
@@ -38,7 +37,7 @@ layout: home
 </div>
 
 <div style="position:relative; border-radius:16px; overflow:hidden; border:1px solid #eee; margin:0.8rem 0;">
-  <img src="{{ '/assets/images/haplotypes.jpg' | relative_url }}"
+  <img src="{{ '/assets/images/haplotypes_v2.jpg' | relative_url }}"
        alt="Haplotype-frequency dynamics of seasonal influenza virus"
        style="display:block; width:100%; height:auto;">
   <div style="
@@ -61,7 +60,7 @@ layout: home
   Our lab develops theory and inference tools for evolutionary and networked biological systems, from biochemical reaction networks to viral and population dynamics.
 </p>
 <p style="font-size:1.05rem; margin-top:0.75rem; max-width: 56rem;" class="ja-only">
-  シングルセル計測やオミクス、病原体ゲノム監視、脳活動計測など、生命システムの動態データが爆発的に蓄積しています。こうした状況で、観測をメカニズム理解へ翻訳し、検証可能な予測や介入へつなぐ理論が強く求められています。
+  シングルセル計測やオミクス、病原体ゲノム監視、脳活動計測など、生命システムの動態データが急速に蓄積しています。こうした状況で、観測をメカニズム理解へ翻訳し、検証可能な予測や介入へつなぐ理論が強く求められています。
 </p>
 <p style="font-size:1.05rem; margin-top:0.75rem; max-width: 56rem;" class="ja-only">
   生命システムは要素を個別に調べるだけでは不十分で、相互作用から全体として普遍的な法則が立ち現れます。分子反応ネットワーク、微生物群集の相互作用、ウイルス進化と感染拡大、神経ネットワークといったさまざまなシステムを対象に、確率過程・統計物理・情報理論・機械学習を駆使した数理モデルと推定手法を開発し、データと理論を往復して普遍原理を抽出します。また、得られた原理をもとに生命動態の予測・制御の指針へ展開し、実験・観測とも連携して検証します。

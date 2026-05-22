@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700">
+  <defs>
+    <marker id="arr" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0,0 L0,7 L7,3.5 z" fill="#FDB515"/>
+    </marker>
+    <!--
+      DNA double helix (vertical, 3 full turns, height=168px, width=60px)
+      Strand A: starts center, goes right first
+      Strand B: starts center, goes left first
+      Period=56px, Amplitude=18px, center x=30
+    -->
+    <g id="helix">
+      <!-- Strand B (starts left-max, behind) -->
+      <path d="M12,0 C12,5 21,9 30,14 C39,19 48,23 48,28 C48,33 39,37 30,42 C21,47 12,51 12,56
+               C12,61 21,65 30,70 C39,75 48,79 48,84 C48,89 39,93 30,98 C21,103 12,107 12,112
+               C12,117 21,121 30,126 C39,131 48,135 48,140 C48,145 39,149 30,154 C21,159 12,163 12,168"
+            fill="none" stroke="#FDB515" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- Strand A (starts right-max, front) -->
+      <path d="M48,0 C48,5 39,9 30,14 C21,19 12,23 12,28 C12,33 21,37 30,42 C39,47 48,51 48,56
+               C48,61 39,65 30,70 C21,75 12,79 12,84 C12,89 21,93 30,98 C39,103 48,107 48,112
+               C48,117 39,121 30,126 C21,131 12,135 12,140 C12,145 21,149 30,154 C39,159 48,163 48,168"
+            fill="none" stroke="#FDB515" stroke-width="3.5" stroke-linecap="round"/>
+      <!-- Base pairs at inner max-separation points only (not at ends) -->
+      <line x1="12" y1="28"  x2="48" y2="28"  stroke="#FDB515" stroke-width="1.8"/>
+      <circle cx="12" cy="28"  r="2.8" fill="#FDB515"/>
+      <circle cx="48" cy="28"  r="2.8" fill="#FDB515"/>
+
+      <line x1="12" y1="56"  x2="48" y2="56"  stroke="#FDB515" stroke-width="1.8"/>
+      <circle cx="12" cy="56"  r="2.8" fill="#FDB515"/>
+      <circle cx="48" cy="56"  r="2.8" fill="#FDB515"/>
+
+      <line x1="12" y1="84"  x2="48" y2="84"  stroke="#FDB515" stroke-width="1.8"/>
+      <circle cx="12" cy="84"  r="2.8" fill="#FDB515"/>
+      <circle cx="48" cy="84"  r="2.8" fill="#FDB515"/>
+
+      <line x1="12" y1="112" x2="48" y2="112" stroke="#FDB515" stroke-width="1.8"/>
+      <circle cx="12" cy="112" r="2.8" fill="#FDB515"/>
+      <circle cx="48" cy="112" r="2.8" fill="#FDB515"/>
+
+      <line x1="12" y1="140" x2="48" y2="140" stroke="#FDB515" stroke-width="1.8"/>
+      <circle cx="12" cy="140" r="2.8" fill="#FDB515"/>
+      <circle cx="48" cy="140" r="2.8" fill="#FDB515"/>
+    </g>
+  </defs>
+
+  <g fill="#FDB515" font-family="Georgia, 'Times New Roman', serif" font-style="italic" opacity="0.18">
+
+    <!-- 進化・集団遺伝学 -->
+    <text x="40" y="90" font-size="17" opacity="1" transform="rotate(-8, 40, 90)">∂p/∂t = sp(1−p) + μ(q−p)</text>
+
+    <text x="200" y="190" font-size="17" opacity="1" transform="rotate(-4, 200, 190)">P(fix) = (1 − e<tspan dy="-6" font-size="12">−2s</tspan><tspan dy="6" font-size="17">) / (1 − e</tspan><tspan dy="-6" font-size="12">−4Ns</tspan><tspan dy="6" font-size="17">)</tspan></text>
+
+    <text x="500" y="270" font-size="15" opacity="1" transform="rotate(-9, 500, 270)">F<tspan dy="5" font-size="11">ST</tspan><tspan dy="-5" font-size="15"> = σ</tspan><tspan dy="-6" font-size="11">2</tspan><tspan dy="6" font-size="15"> / p̄(1−p̄)</tspan></text>
+
+    <text x="60" y="430" font-size="17" opacity="1" transform="rotate(-6, 60, 430)">H = −∑ p<tspan dy="5" font-size="12">i</tspan><tspan dy="-5" font-size="17"> log p</tspan><tspan dy="5" font-size="12">i</tspan><tspan dy="-5" font-size="17"></tspan></text>
+
+    <text x="750" y="160" font-size="14" opacity="1" transform="rotate(10, 750, 160)">⟨Δp²⟩ = p(1−p) / 2N</text>
+
+    <!-- Lotka-Volterra -->
+    <text x="340" y="340" font-size="16" opacity="1" transform="rotate(-7, 340, 340)">dx/dt = αx − βxy</text>
+    <text x="340" y="362" font-size="16" opacity="1" transform="rotate(-7, 340, 362)">dy/dt = δxy − γy</text>
+
+    <!-- 集団動態・感染症 -->
+    <text x="620" y="55" font-size="15" opacity="1" transform="rotate(6, 620, 55)">dN/dt = rN(1 − N/K)</text>
+
+    <text x="820" y="330" font-size="15" opacity="1" transform="rotate(7, 820, 330)">R<tspan dy="5" font-size="11">0</tspan><tspan dy="-5" font-size="15"> = βN / γ</tspan></text>
+
+    <!-- 化学反応理論 -->
+    <text x="480" y="400" font-size="14" opacity="1" transform="rotate(12, 480, 400)">d[A]/dt = −k<tspan dy="5" font-size="10">+</tspan><tspan dy="-5" font-size="14">[A][B] + k</tspan><tspan dy="5" font-size="10">−</tspan><tspan dy="-5" font-size="14">[C]</tspan></text>
+
+    <text x="130" y="370" font-size="15" opacity="1" transform="rotate(5, 130, 370)">k = A · e<tspan dy="-6" font-size="11">−E<tspan dy="4" font-size="8">a</tspan><tspan dy="-4" font-size="11">/RT</tspan></tspan><tspan dy="6" font-size="15"></tspan></text>
+
+    <text x="570" y="620" font-size="14" opacity="1" transform="rotate(-6, 570, 620)">k<tspan dy="5" font-size="10">+</tspan><tspan dy="-5" font-size="14">/k</tspan><tspan dy="5" font-size="10">−</tspan><tspan dy="-5" font-size="14"> = K</tspan><tspan dy="5" font-size="10">eq</tspan><tspan dy="-5" font-size="14"> = e</tspan><tspan dy="-6" font-size="10">−ΔG/RT</tspan><tspan dy="6" font-size="14"></tspan></text>
+
+    <!-- フォッカー・プランク -->
+    <text x="30" y="310" font-size="17" opacity="1" transform="rotate(5, 30, 310)">∂P/∂t = −∇·(fP) + D∇²P</text>
+
+    <text x="320" y="550" font-size="17" opacity="1" transform="rotate(-10, 320, 550)">P(T|D) ∝ P(D|T) · P(T)</text>
+
+    <text x="60" y="580" font-size="15" opacity="1" transform="rotate(8, 60, 580)">⟨Δx²⟩ = 2Dt</text>
+
+    <!-- 一般相対性理論 -->
+    <text x="560" y="145" font-size="16" opacity="1" transform="rotate(-6, 560, 145)">G<tspan dy="5" font-size="11">μν</tspan><tspan dy="-5" font-size="16"> + Λg</tspan><tspan dy="5" font-size="11">μν</tspan><tspan dy="-5" font-size="16"> = 8πG/c</tspan><tspan dy="-6" font-size="11">4</tspan><tspan dy="6" font-size="16"> · T</tspan><tspan dy="5" font-size="11">μν</tspan><tspan dy="-5" font-size="16"></tspan></text>
+
+    <text x="800" y="460" font-size="14" opacity="1" transform="rotate(-5, 800, 460)">ds² = −c²dt² + g<tspan dy="5" font-size="10">ij</tspan><tspan dy="-5" font-size="14"> dx</tspan><tspan dy="-5" font-size="10">i</tspan><tspan dy="5" font-size="14"> dx</tspan><tspan dy="-5" font-size="10">j</tspan><tspan dy="5" font-size="14"></tspan></text>
+
+    <text x="150" y="660" font-size="15" opacity="1" transform="rotate(7, 150, 660)">R<tspan dy="5" font-size="11">μν</tspan><tspan dy="-5" font-size="15"> − ½ R g</tspan><tspan dy="5" font-size="11">μν</tspan><tspan dy="-5" font-size="15"> = 8πG T</tspan><tspan dy="5" font-size="11">μν</tspan><tspan dy="-5" font-size="15"></tspan></text>
+
+    <!-- 量子場理論 -->
+    <text x="400" y="480" font-size="16" opacity="1" transform="rotate(-8, 400, 480)">iℏ ∂ψ/∂t = Ĥψ</text>
+
+    <text x="650" y="360" font-size="15" opacity="1" transform="rotate(9, 650, 360)">(iγ<tspan dy="-6" font-size="11">μ</tspan><tspan dy="6" font-size="15"> ∂</tspan><tspan dy="5" font-size="11">μ</tspan><tspan dy="-5" font-size="15"> − m)ψ = 0</tspan></text>
+
+    <text x="860" y="220" font-size="14" opacity="1" transform="rotate(-12, 860, 220)">Z = ∫ Dφ exp(iS[φ]/ℏ)</text>
+
+    <text x="100" y="490" font-size="13" opacity="1" transform="rotate(6, 100, 490)">ℒ = −¼ F<tspan dy="5" font-size="9">μν</tspan><tspan dy="-5" font-size="13">F</tspan><tspan dy="-6" font-size="9">μν</tspan><tspan dy="6" font-size="13"> + ψ̄(iγ</tspan><tspan dy="-6" font-size="9">μ</tspan><tspan dy="6" font-size="13">D</tspan><tspan dy="5" font-size="9">μ</tspan><tspan dy="-5" font-size="13"> − m)ψ</tspan></text>
+
+    <text x="700" y="80" font-size="15" opacity="1" transform="rotate(-5, 700, 80)">[x̂, p̂] = iℏ</text>
+
+    <!-- Wigner半円則 -->
+    <text x="820" y="560" font-size="14" opacity="1" transform="rotate(-8, 820, 560)">ρ(λ) = (1/2πσ²)√(4σ² − λ²)</text>
+    <text x="820" y="578" font-size="11" opacity="1" transform="rotate(-8, 820, 578)">(Wigner semicircle, |λ| ≤ 2σ)</text>
+
+    <!-- 圏論テキスト -->
+    <text x="880" y="130" font-size="14" opacity="1" transform="rotate(-7, 880, 130)">η: F ⇒ G</text>
+    <text x="700" y="620" font-size="15" opacity="1" transform="rotate(5, 700, 620)">Hom<tspan dy="5" font-size="11">C</tspan><tspan dy="-5" font-size="15">(A, B)</tspan></text>
+    <text x="30" y="660" font-size="14" opacity="1" transform="rotate(-4, 30, 660)">g ∘ f : A → C</text>
+
+    <!-- 複素積分・解析 -->
+    <text x="270" y="60" font-size="16" opacity="1" transform="rotate(-5, 270, 60)">f(a) = <tspan font-style="normal">1</tspan>/2πi · ∮<tspan dy="5" font-size="11">C</tspan><tspan dy="-5" font-size="16"> f(z)/(z−a) dz</tspan></text>
+
+    <text x="210" y="440" font-size="16" opacity="1" transform="rotate(6, 210, 440)">∮<tspan dy="5" font-size="11">C</tspan><tspan dy="-5" font-size="16"> f(z) dz = 2πi ∑</tspan><tspan dy="5" font-size="11">k</tspan><tspan dy="-5" font-size="16"> Res(f, a</tspan><tspan dy="5" font-size="11">k</tspan><tspan dy="-5" font-size="16">)</tspan></text>
+
+    <text x="680" y="510" font-size="15" opacity="1" transform="rotate(-9, 680, 510)">f̂(ω) = ∫<tspan dy="6" font-size="10">−∞</tspan><tspan dy="-12" font-size="10">∞</tspan><tspan dy="6" font-size="15"> f(t) e</tspan><tspan dy="-6" font-size="11">−iωt</tspan><tspan dy="6" font-size="15"> dt</tspan></text>
+
+    <text x="900" y="170" font-size="15" opacity="1" transform="rotate(8, 900, 170)">∫<tspan dy="6" font-size="10">−∞</tspan><tspan dy="-12" font-size="10">∞</tspan><tspan dy="6" font-size="15"> e</tspan><tspan dy="-6" font-size="11">−x²</tspan><tspan dy="6" font-size="15"> dx = √π</tspan></text>
+
+    <!-- Fluctuation-dissipation theorem & Hilbert / Kramers-Kronig -->
+    <text x="30" y="240" font-size="15" opacity="1" transform="rotate(-4, 30, 240)">S(ω) = 2k<tspan dy="5" font-size="10">B</tspan><tspan dy="-5" font-size="15">T · χ''(ω) / ω</tspan></text>
+
+
+<text x="640" y="680" font-size="15" opacity="1" transform="rotate(5, 640, 680)">⟨F(t)F(t')⟩ = 2k<tspan dy="5" font-size="10">B</tspan><tspan dy="-5" font-size="15">T γ δ(t−t')</tspan></text>
+
+    <text x="390" y="220" font-size="15" opacity="1" transform="rotate(7, 390, 220)">χ'(ω) = <tspan font-style="normal">1</tspan>/π · P.V. ∫ χ''(ω')/(ω'−ω) dω'</text>
+
+    <text x="870" y="390" font-size="15" opacity="1" transform="rotate(-7, 870, 390)">H[f](x) = <tspan font-style="normal">1</tspan>/π · P.V. ∫ f(t)/(x−t) dt</text>
+
+    <!-- Calabi-Yau / String theory -->
+    <text x="430" y="330" font-size="16" opacity="1" transform="rotate(-6, 430, 330)">Hol(g) ⊆ SU(3),  c<tspan dy="5" font-size="11">1</tspan><tspan dy="-5" font-size="16">(M) = 0</tspan></text>
+
+    <text x="150" y="420" font-size="15" opacity="1" transform="rotate(8, 150, 420)">χ = 2(h<tspan dy="-6" font-size="10">1,1</tspan><tspan dy="6" font-size="15"> − h</tspan><tspan dy="-6" font-size="10">2,1</tspan><tspan dy="6" font-size="15">)</tspan></text>
+
+    <text x="560" y="310" font-size="14" opacity="1" transform="rotate(5, 560, 310)">h<tspan dy="-6" font-size="10">1,1</tspan><tspan dy="6" font-size="14">(M) = h</tspan><tspan dy="-6" font-size="10">2,1</tspan><tspan dy="6" font-size="14">(W)  (mirror symmetry)</tspan></text>
+
+    <text x="840" y="80" font-size="14" opacity="1" transform="rotate(-9, 840, 80)">S = −<tspan font-style="normal">T</tspan>/2 ∫ d<tspan dy="-6" font-size="10">2</tspan><tspan dy="6" font-size="14">σ √(−h) h</tspan><tspan dy="-6" font-size="10">αβ</tspan><tspan dy="6" font-size="14"> ∂</tspan><tspan dy="5" font-size="10">α</tspan><tspan dy="-5" font-size="14">X</tspan><tspan dy="-6" font-size="10">μ</tspan><tspan dy="6" font-size="14"> ∂</tspan><tspan dy="5" font-size="10">β</tspan><tspan dy="-5" font-size="14">X</tspan><tspan dy="5" font-size="10">μ</tspan><tspan dy="-5" font-size="14"></tspan></text>
+
+    <text x="340" y="190" font-size="14" opacity="1" transform="rotate(-7, 340, 190)">S = <tspan font-style="normal">1</tspan>/4πα' ∫ d<tspan dy="-6" font-size="10">2</tspan><tspan dy="6" font-size="14">z (∂X</tspan><tspan dy="-6" font-size="10">μ</tspan><tspan dy="6" font-size="14"> ∂̄X</tspan><tspan dy="5" font-size="10">μ</tspan><tspan dy="-5" font-size="14"> + ψ</tspan><tspan dy="-6" font-size="10">μ</tspan><tspan dy="6" font-size="14"> ∂̄ψ</tspan><tspan dy="5" font-size="10">μ</tspan><tspan dy="-5" font-size="14">)</tspan></text>
+
+    <!-- 大きな記号 -->
+    <text x="950" y="90"  font-size="28" opacity="0.6" transform="rotate(-15, 950, 90)">∂</text>
+    <text x="10"  y="200" font-size="36" opacity="0.5" transform="rotate(20, 10, 200)">∫</text>
+    <text x="420" y="130" font-size="26" opacity="0.6" transform="rotate(-5, 420, 130)">∇</text>
+    <text x="1055" y="400" font-size="30" opacity="0.6" transform="rotate(8, 1055, 400)">Σ</text>
+    <text x="600" y="500" font-size="26" opacity="0.5" transform="rotate(15, 600, 500)">∞</text>
+    <text x="980" y="650" font-size="30" opacity="0.5" transform="rotate(-10, 980, 650)">ℏ</text>
+    <text x="250" y="665" font-size="24" opacity="0.5" transform="rotate(-12, 250, 665)">Λ</text>
+
+  </g>
+
+  <!-- ========== DNA 二重らせん ========== -->
+  <!-- 縦方向 -->
+  <use href="#helix" transform="translate(940,  80) rotate( 5, 30, 84)" opacity="0.12"/>
+  <use href="#helix" transform="translate( 10, 380) rotate(-8, 30, 84)" opacity="0.11"/>
+  <use href="#helix" transform="translate(500,  90) rotate(10, 30, 84) scale(0.8)" opacity="0.11"/>
+  <!-- 斜め方向 -->
+  <use href="#helix" transform="translate(150,  30) rotate(45, 30, 84) scale(0.9)" opacity="0.11"/>
+  <use href="#helix" transform="translate(620, 530) rotate(-40, 30, 84) scale(0.85)" opacity="0.10"/>
+  <use href="#helix" transform="translate(820, 150) rotate(55, 30, 84) scale(0.8)" opacity="0.10"/>
+  <use href="#helix" transform="translate(380, 420) rotate(-50, 30, 84) scale(0.75)" opacity="0.09"/>
+
+  <!-- ========== 可換図式 ========== -->
+
+  <!-- 1. 通常の可換四辺形 -->
+  <g opacity="0.17" transform="translate(900, 270)">
+    <text x="0"  y="0"  font-size="13" font-family="Georgia,serif" font-style="italic" fill="#FDB515">A</text>
+    <text x="80" y="0"  font-size="13" font-family="Georgia,serif" font-style="italic" fill="#FDB515">B</text>
+    <text x="0"  y="80" font-size="13" font-family="Georgia,serif" font-style="italic" fill="#FDB515">C</text>
+    <text x="80" y="80" font-size="13" font-family="Georgia,serif" font-style="italic" fill="#FDB515">D</text>
+    <line x1="12" y1="-4" x2="74" y2="-4" stroke="#FDB515" stroke-width="1.1" marker-end="url(#arr)"/>
+    <line x1="12" y1="76" x2="74" y2="76" stroke="#FDB515" stroke-width="1.1" marker-end="url(#arr)"/>
+    <line x1="2"  y1="8"  x2="2"  y2="68" stroke="#FDB515" stroke-width="1.1" marker-end="url(#arr)"/>
+    <line x1="86" y1="8"  x2="86" y2="68" stroke="#FDB515" stroke-width="1.1" marker-end="url(#arr)"/>
+    <text x="36" y="-8"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">f</text>
+    <text x="36" y="90"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">g</text>
+    <text x="-9" y="40"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">h</text>
+    <text x="98" y="40"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">k</text>
+  </g>
+
+  <!-- 2. 自然変換の可換四辺形 (η: F ⇒ G) -->
+  <g opacity="0.17" transform="translate(130, 190) rotate(4, 60, 50)">
+    <text x="0"   y="0"  font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">FA</text>
+    <text x="105" y="0"  font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">FB</text>
+    <text x="0"   y="82" font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">GA</text>
+    <text x="105" y="82" font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">GB</text>
+    <line x1="18"  y1="-4" x2="100" y2="-4" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <line x1="18"  y1="78" x2="100" y2="78" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <line x1="4"   y1="8"  x2="4"   y2="68" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <line x1="118" y1="8"  x2="118" y2="68" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <text x="56"  y="-9"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">Ff</text>
+    <text x="56"  y="93"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">Gf</text>
+    <text x="-14" y="42"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">η<tspan dy="3" font-size="8">A</tspan></text>
+    <text x="132" y="42"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">η<tspan dy="3" font-size="8">B</tspan></text>
+  </g>
+
+  <!-- 3. 引き戻し (pullback) -->
+  <g opacity="0.17" transform="translate(600, 430) rotate(-6, 55, 55)">
+    <text x="0"   y="0"  font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">P</text>
+    <text x="100" y="0"  font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">A</text>
+    <text x="0"   y="82" font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">B</text>
+    <text x="100" y="82" font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">C</text>
+    <line x1="12"  y1="-4" x2="94"  y2="-4" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <line x1="12"  y1="78" x2="94"  y2="78" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <line x1="2"   y1="8"  x2="2"   y2="68" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <line x1="108" y1="8"  x2="108" y2="68" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <polyline points="14,4 14,14 4,14" fill="none" stroke="#FDB515" stroke-width="1.0"/>
+    <text x="50"  y="-9"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">p<tspan dy="3" font-size="8">1</tspan></text>
+    <text x="50"  y="93"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">g</text>
+    <text x="-12" y="42"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">p<tspan dy="3" font-size="8">2</tspan></text>
+    <text x="122" y="42"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">f</text>
+  </g>
+
+  <!-- 4. 完全列 0 → A → B → C → 0 -->
+  <g opacity="0.17" transform="translate(50, 130) rotate(-5, 160, 10)">
+    <text x="0"   y="4"  font-size="12" font-family="Georgia,serif" fill="#FDB515">0</text>
+    <text x="55"  y="4"  font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">A</text>
+    <text x="120" y="4"  font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">B</text>
+    <text x="185" y="4"  font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">C</text>
+    <text x="240" y="4"  font-size="12" font-family="Georgia,serif" fill="#FDB515">0</text>
+    <line x1="12"  y1="0" x2="50"  y2="0" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <line x1="65"  y1="0" x2="114" y2="0" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <line x1="130" y1="0" x2="179" y2="0" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <line x1="195" y1="0" x2="236" y2="0" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <text x="83"  y="-7" font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">f</text>
+    <text x="151" y="-7" font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">g</text>
+  </g>
+
+  <!-- 5. 三角形 -->
+  <g opacity="0.17" transform="translate(460, 560) rotate(-5, 60, 50)">
+    <text x="0"   y="0"  font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">A</text>
+    <text x="100" y="0"  font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">B</text>
+    <text x="50"  y="72" font-size="12" font-family="Georgia,serif" font-style="italic" fill="#FDB515">C</text>
+    <line x1="12"  y1="-4" x2="94"  y2="-4" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <line x1="8"   y1="6"  x2="48"  y2="64" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <line x1="106" y1="6"  x2="66"  y2="64" stroke="#FDB515" stroke-width="1.0" marker-end="url(#arr)"/>
+    <text x="52" y="-9"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515" text-anchor="middle">f</text>
+    <text x="22" y="40"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515">h</text>
+    <text x="90" y="40"  font-size="10" font-family="Georgia,serif" font-style="italic" fill="#FDB515">g</text>
+  </g>
+
+</svg>
