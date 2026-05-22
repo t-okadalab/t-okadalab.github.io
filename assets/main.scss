@@ -61,6 +61,10 @@ body{
 html:not(.ja-mode) .ja-only { display: none !important; }
 html.ja-mode .en-only { display: none !important; }
 
+.site-title {
+  font-size: 2rem;
+}
+
 .page-link {
   font-size: 1.25rem;
 }
