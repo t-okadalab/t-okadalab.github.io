@@ -61,6 +61,10 @@ body{
 html:not(.ja-mode) .ja-only { display: none !important; }
 html.ja-mode .en-only { display: none !important; }
 
+.page-link {
+  font-size: 1.25rem;
+}
+
 .lang-toggle-btn {
   background: none;
   border: 1px solid #828282;
