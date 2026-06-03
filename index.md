@@ -26,8 +26,8 @@ layout: home
       <span class="ja-only">岡田　崇　</span>Takashi Okada
     </div>
     <div style="font-size:1.3rem;font-weight:600; opacity:.5;">
-      <span class="en-only">(Associate Professor, Hiroshima Univ. / Visiting Researcher, <a href="https://ithems.riken.jp/en/members/takashi-okada">RIKEN iTHEMS</a>)</span>
-      <span class="ja-only">（広島大学・PI・准教授 / 理研iTHEMS・<a href="https://ithems.riken.jp/en/members/takashi-okada">客員研究員</a>）</span>
+      <span class="en-only">(Associate Professor, <a href="https://www.hiroshima-u.ac.jp/ilife/program-of-mathematical-life-sciences">Hiroshima Univ.</a> / Visiting Researcher, <a href="https://ithems.riken.jp/en/members/takashi-okada">RIKEN iTHEMS</a>)</span>
+      <span class="ja-only">（<a href="https://www.hiroshima-u.ac.jp/ilife/program-of-mathematical-life-sciences">広島大学</a>・PI・准教授 / 理研iTHEMS・<a href="https://ithems.riken.jp/en/members/takashi-okada">客員研究員</a>）</span>
     </div>
 
     <div style="font-size:0.9rem; opacity:0.75; margin-top:0.35rem;">
