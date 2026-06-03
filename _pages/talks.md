@@ -59,6 +59,8 @@ permalink: /talks/
 
 1. **invited**, [Autocatalysis in reaction networks seminar](https://researchseminars.org/seminar/AutocatalysisRN), October 2025.
 
+1. "Flux Distributions Determine Phenotypic Landscape in Metabolic Networks," 学術変革領域A EPIC assembly 領域会議 (Poster), June 2026.
+
 ---
 
 ## Particle Physics / String Theory
