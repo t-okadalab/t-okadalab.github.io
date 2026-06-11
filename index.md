@@ -98,6 +98,14 @@ layout: home
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
       <span class="en-only">Publications</span><span class="ja-only">論文</span> ↗
     </a>
+    <a href="{{ '/talks/' | relative_url }}"
+       style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
+      <span class="en-only">Talks</span><span class="ja-only">Talks</span> ↗
+    </a>
+    <a href="{{ '/notes/' | relative_url }}"
+       style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
+      <span class="en-only">Notes</span><span class="ja-only">ノート</span> ↗
+    </a>
     <a href="{{ '/members/' | relative_url }}"
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
       <span class="en-only">Members</span><span class="ja-only">メンバー</span> ↗
