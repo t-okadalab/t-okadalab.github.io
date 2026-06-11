@@ -102,9 +102,9 @@ layout: home
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
       <span class="en-only">Talks</span><span class="ja-only">Talks</span> ↗
     </a>
-    <a href="{{ '/notes/' | relative_url }}"
+    <a href="{{ '/teaching/' | relative_url }}"
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
-      <span class="en-only">Notes</span><span class="ja-only">ノート</span> ↗
+      <span class="en-only">Teaching</span><span class="ja-only">講義</span> ↗
     </a>
     <a href="{{ '/members/' | relative_url }}"
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">

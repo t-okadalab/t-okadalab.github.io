@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Notes"
-title_ja: "ノート"
-permalink: /notes/
+title: "Teaching"
+title_ja: "講義"
+permalink: /teaching/
 ---
 
 <div class="en-only" markdown="1">
