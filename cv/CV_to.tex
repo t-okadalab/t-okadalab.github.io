@@ -1,0 +1,554 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+%
+% If you have never used LaTeX before, talk you your advisor about
+% how to compile this into a PDF.
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{hyperref,comment}
+\usepackage[hmargin=3.0cm,vmargin=1.5cm]{geometry}
+% Japanese support: compile with LuaLaTeX, e.g. `lualatex CV_to.tex`.
+% luatexja enables Japanese typesetting using the bundled Harano Aji fonts,
+% so the Japanese text in this CV renders correctly.
+\usepackage{luatexja}
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+%\usepackage[T1]{fontenc}
+%\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+
+\def\name{{Takashi Okada}}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {CV, physics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.0in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts: heading followed by a full-width rule for a clean CV look.
+\usepackage{titlesec}
+\titleformat{\section}{\rmfamily\Large\bfseries}{}{0em}{}[\vspace{-0.4ex}\rule{\textwidth}{0.6pt}]
+\titlespacing*{\section}{0pt}{2.2ex}{1.2ex}
+\titleformat{\subsection}{\rmfamily\large\itshape}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{1.2ex}{0.6ex}
+
+% Consistent, compact list spacing throughout.
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=1.6em, itemsep=2pt, topsep=2pt, parsep=0pt}
+\setlist[enumerate]{leftmargin=1.6em, itemsep=2pt, topsep=2pt, parsep=0pt}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+%\setlength\parindent{0em}
+
+\renewcommand{\refname}{{\bf List of Publications}}
+\begin{document}
+
+% Place name at left
+
+\begin{center}
+\underline{{\huge{ {\bf Curriculum Vitae}} }}
+\end{center}
+
+\begin{center}
+{\huge {\bf Takashi Okada}}
+\end{center}
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+
+
+
+\section*{{\bf Personal}}
+\begin{tabular}{@{}l p{11.5cm}@{}}
+{\bf Name in Full} & Takashi Okada\\
+{\bf Sex}           & Male\\
+{\bf Date of Birth} & August 29, 1983\\
+{\bf Nationality}   & Japan\\
+{\bf Address}       & Hiroshima University, Higashi-Hiroshima, Hiroshima 739-8526, Japan\\
+{\bf Email}         & takashiokada[\,at\,]hiroshima-u.ac.jp\\
+\end{tabular}
+
+
+\section*{{\bf Education}}
+
+\begin{itemize}
+ %   \item 2003-2009, Student at University of Tokyo.
+ \item 2007:  BS, Physics, University of Tokyo.
+  \item 2009: MSc, Physics, University of Tokyo (Adviser: Junji Hisano).
+  \item March 25, 2013, Ph.D. in Physics, Kyoto University (Ph.D. adviser: Hikaru Kawai).
+%  \item November.2012-December.2012, a visitor student at Caltech, host: Anton Kapustin
+
+
+\end{itemize}
+
+
+
+\section*{{\bf Affiliation}}
+\begin{itemize}
+
+\item April 2013-March 2014,  Postdoctoral Fellow, Kyoto University, YITP
+\item June 2013-March 2014, Visiting Researcher, University of California, Santa Barbara, KITP
+\item{May 2014 - March 2018,  Postdoctoral Fellow, Mochizuki Theoretical Biology Laboratory, Wako, RIKEN }
+\item{April 2018 - March 2022,  Senior Research Scientist, Interdisciplinary Theoretical and Mathematical Sciences, RIKEN.  %Department of Integrative Biology, University of California, Berkeley,USA
+}
+\item{September 2018 - March 2022, Visiting scholar,  Departments of Physics and Integrative Biology,
+University of California,
+Berkeley,
+USA}
+
+\item{Apr 2022- March 2023, Program-specific Associate Professor, Institute for Life and Medical Sciences,  Kyoto University, Japan}
+\item{Apr 2023- March 2026, Associate Professor, Institute for  Life and Medical Sciences,  Kyoto University, Japan}
+\item{Apr 2026-, Graduate School of Integrated Sciences for Life, Hiroshima University,  Japan}
+\end{itemize}
+
+
+%\clearpage
+
+\section*{{\bf  Grants}}
+\begin{itemize}
+\item  The Japan Society for the Promotion of Science (JSPS) Fellowship, DC2
+\item  The Japan Society for the Promotion of Science (JSPS) Fellowship, PD
+
+  \item The Global COE program from the Ministry of Education, Culture, Sports, Science and Technology of Japan
+  \item Kakenhi, 基盤研究(C), 19K03663 (2019-2021), 分担者
+  \item Kakenhi, 基盤研究(C), 22K03453 (2022-2025), 分担者
+  \item Kakenhi, 基盤研究(C), 22K06347 (2022-2025), 代表者
+   \item Kakenhi, 学変A公募研究, 26H01807 (2022-2025), 代表者
+ \end{itemize}
+
+% \section*{{\bf  Kakenhi}}
+%\begin{itemize}
+%  \item 基盤研究C
+% \end{itemize}
+
+ \section*{{\bf  Awards}}
+ \subsection*{Physics}
+\begin{itemize}
+\item
+2017, the 12th Particle Physics Medal, Young Scientist Award in Theoretical Particle Physics\\
+Y. Asano, G. Ishiki, T. Okada and S. Shimasaki, “Exact results for perturbative partition functions of theories with $S U (2|4)$ symmetry,” JHEP 1302 (2013) 148
+\end{itemize}
+\subsection*{Biology}
+\begin{itemize}
+\item
+
+The 8th CREST, Suuri-Design Dojo, Poster Arard\\
+Takashi Okada, ``Sensitivity and Network topology in chemical reactions'', Numazu, Shizuoka,  June, 2017
+\item
+2019, the 13th Young Scientist Award of the Physical Society of Japan
+T. Okada, and A. Mochizuki, "Law of localization in chemical reaction networks," Phys. Rev. Lett. 117, 048101 (2016)
+T. Okada, and A. Mochizuki, "Sensitivity and network topology in chemical reaction systems," Phys. Rev. E 96, 022322 (2017)
+T. Okada, JC. Tsai, A. Mochizuki, "Structural bifurcation analysis in chemical reaction systems," Phys. Rev. E 98, 012417 (2018)
+\item
+2020, the 15th Young Scientist Award of JSMB
+
+\end{itemize}
+
+ \section*{{\bf  Journal referee/reviewer etc}}
+\begin{itemize}
+\item The Journal of Physical Chemistry
+\item Physica A: Statistical Mechanics and its Applications
+\item PLOS computational biology
+\item 日本物理学会 領域11 運営委員 (2023-2024)
+
+\item 2023年4月 京大医生研情報セキュリティ技術責任者
+\end{itemize}
+
+
+ \section*{{\bf Teaching Experience}}
+ \begin{itemize}
+ \item  2018: Expert in the master's degree defense: Tom Suter, Ecole polytechnique federale de Lausanne, Switzerland (2018/09/04)
+
+ \item  2019: Supervising Yu-Huan Wang, an undergraduate student, Southern University of Science and Technology (China), a visiting scholar of Semester exchange program of University of California Berkeley.
+
+  \item  2022: 東大オンライン講義. 学術フロンテイア講義（東大)　「生物進化はどのように進むのか」
+  \item 2022: 京大オンライン講義. 学術連携共同：数理科学の研究フロンティア　「生物進化はどのように進むのか」
+  \item 2023: 京大　生物科学特論
+   \end{itemize}
+%\newpage
+%
+%\section{{\bf THEORETICAL PHYSICS}}
+%
+%\begin{thebibliography}{99}
+%
+%%\cite{Asano:2008qc}
+%\bibitem{Asano:2008qc}
+%  M.~Asano, J.~Hisano, T.~Okada and S.~Sugiyama,
+%  %``A Realistic Extension of Gauge-Mediated SUSY-Breaking Model with Superconformal Hidden Sector,''
+%  Phys.\ Lett.\ B {\bf 673}, 146 (2009)
+%  [arXiv:0810.4606 [hep-ph]].
+%  %%CITATION = ARXIV:0810.4606;%%
+%%\cite{Kawai:2011rj}
+%\bibitem{Kawai:2011rj}
+%  H.~Kawai and T.~Okada,
+%  ``Asymptotically Vanishing Cosmological Constant in the Multiverse,''
+%  Int.\ J.\ Mod.\ Phys.\ A {\bf 26}, 3107 (2011)
+%  [arXiv:1104.1764 [hep-th]].
+%  %%CITATION = ARXIV:1104.1764;%%
+%%\cite{Nishinaka:2011at}
+%\bibitem{Nishinaka:2011at}
+%  T.~Nishinaka, T.~Okada, T.~Okazaki and S.~Yamaguchi,
+%  ``Evidence for Duality of Conifold from Fundamental String,''
+%  JHEP {\bf 1110}, 051 (2011)
+%  [arXiv:1107.3660 [hep-th]].
+%  %%CITATION = ARXIV:1107.3660;%%
+%%\cite{Kawai:2011qb}
+%\bibitem{Kawai:2011qb}
+%  H.~Kawai and T.~Okada,
+%  ``Solving the Naturalness Problem by Baby Universes in the Lorentzian Multiverse,''
+%  Prog.\ Theor.\ Phys.\  {\bf 127}, 689 (2012)
+%  [arXiv:1110.2303 [hep-th]].
+%  %%CITATION = ARXIV:1110.2303;%%
+%  %\cite{Asano:2012gt}
+%\bibitem{Asano:2012gt}
+%  Y.~Asano, G.~Ishiki, T.~Okada and S.~Shimasaki,
+%  ``Large-N reduction for N=2 quiver Chern-Simons theories on $S^3$ and localization in matrix models,''
+%  Phys.\ Rev.\ D {\bf 85}, 106003 (2012)
+%  [arXiv:1203.0559 [hep-th]].
+%  %%CITATION = ARXIV:1203.0559;%%
+%  %\cite{Kikuchi:2012za}
+%\bibitem{Kikuchi:2012za}
+%  T.~Kikuchi, T.~Okada and Y.~Sakatani,
+%  ``Rotating string in doubled geometry with generalized isometries,''
+%  Phys.\ Rev.\ D {\bf 86}, 046001 (2012)
+%  [arXiv:1205.5549 [hep-th]].
+%  %%CITATION = ARXIV:1205.5549;%%
+%
+%%\cite{}
+%\bibitem{}
+%  Y.~Asano, G.~Ishiki, T.~Okada and S.~Shimasaki,
+%  ``Exact results for perturbative partition functions of theories with $SU(2|4)$ symmetry,''
+%   JHEP \ 1302 (2013) 148
+%  arXiv:1211.0364 [hep-th].
+%  %%CITATION = ARXIV:1211.0364;%%
+%
+%\bibitem{}
+%  Y.~Asano, G.~Ishiki, T.~Okada and S.~Shimasaki,
+%  ``Emergent bubbling geometry in the plane wave matrix model'',
+% arXiv:1401.5079
+%  %%CITATION = ARXIV:1211.0364;%%
+%
+%
+%
+%\bibitem{}
+%T. Okada and Y. Skatani, “Defect branes as Alice strings”, JHEP 1503 (2015) 131
+%
+%
+%\end{thebibliography}
+%\
+%\\
+%
+%
+%
+%
+%{\large Oral presentations}
+%\begin{enumerate}
+%
+%
+%\item `Double Scaling Limits in Plane-Wave Matrix Model',
+%November 15, 2013, Kavli Institute for Theoretical Physics, University of California, Santa Barbara
+%
+%
+%
+%
+%
+%
+%\item
+%
+%'Exact results of Plane Wave Matrix Model and Gauge/Gravity correspondence', April 26, 2013, Yukawa Institute of Theoretical Physics
+%
+%
+%\item
+%
+%`Localization in Plane-Wave Matrix Model',
+%The Physical Society of Japan 2013 fall meeting
+%
+%
+%\item
+%
+%`Large-N reduction for supersymmetric Chern-Simons theories',
+%The Physical Society of Japan 2012 spring meeting
+%\item
+%
+%``Localization and Large-N reduction on 3-sphere''
+% YITP Workshop
+%Field Theory and String Theory
+%2012 July 23-27
+%
+%
+%
+%
+%\item
+%
+%`The naturalness problem and the wave function of the multiverse', Shizuoka University, January 2012
+%
+%\item
+%
+%`The naturalness problem and the wave function of the multiverse',  University of Tokyo, December 2011
+%
+%\item
+%
+%`The naturalness problem and the wave function of the multiverse', Osaka University, May 2011
+%
+%
+%
+%
+%\end{enumerate}
+%
+%
+%
+%
+%\ \\
+%{\large Poster}
+%\begin{enumerate}
+%\item
+%``Hierarchy problem in the multiverse'', `GCOE Symposium Links among Hierarchies, Feb.13-15, 2012
+%
+%
+%\item``Plane-Wave Matrix Model and Exact results", `GCOE Symposium Links among Hierarchies, Feb.12-14, 2013
+%\end{enumerate}
+%
+%
+%
+%
+%
+%
+%\section{{\bf THEORETICAL BIOLOGY}}
+%
+%\begin{thebibliography}{99}
+%
+%
+%\bibitem{}
+%T. Okada and A. Mochizuki, “Law of Localization in Biochemical Reaction Network”, to be published in Physical Review Letters, 2016.
+%
+%\end{thebibliography}
+%
+%{\large Oral/Poster presentations}
+%\begin{enumerate}
+%\item Sensitivity and network structure in biochemical reaction systems, i-Thes colloquium, January 8, 2015 (Oral presentation, English)
+%\item Sensitivity and network topology in biochemical reaction system. RIKEN-NCSB joint meeting for theoretical biology, April 10 , 2015 (Oral presentation, English)
+%\item  Perturbation-response relations in chemical reaction network. 4th Mathematical design do-jo, June 13, 2015 (Oral presentation)
+%
+%\item Sensitivity and network topology in chemical reaction systems. Equadiff 2015, Lyon, June 25, 2015. (Poster presentation, English)
+%\item Perturbation-response relation and network topology in chemical reaction systems. Japanese Society for Mathematical Biology, August 26, 2015, (Oral presentation, English)
+%\item Sensitivity and network topology in chemical reaction systems. ICSB2015. November 24, 2015 (Poster presentation, English)
+%
+%\item Sensitivity and network structure in biochemical reaction systems,New Horizon of Mathematical Sciences, Riken, April 28, 2016 (Oral presentation)
+%\item Chemical reaction network and sensitivity analysis in plant metabolism, June 8, 2016 (Poster presentation)
+%
+%
+%\end{enumerate}
+%
+%\begin{comment}
+%1. Sensitivity and network topology in biochemical reaction system. RIKEN-NCSB joint meeting for theoretical biology. 2015年4月10日. (口頭・ポスター)
+%2.化学反応系における摂動応答とネットワーク構造.数理デザイン道場.2015年6月13日.(口頭)
+%3. Sensitivity and network topology in chemical reaction systems. Equadiff 2015.2015年6月6日.（ポスター）
+%4. Perturbation-response relation and network topology in chemical reaction systems.日本数理生物学会. 2015年8月26日.(口頭)
+%5. Sensitivity and network topology in chemical reaction systems. ICSB2015. 2015年11月24日. (ポスター)
+%(参考:前年度1-3月)
+%1.	Sensitivity and network topology in chemical reaction systems.理研合同リトリート. 2015年1月29日(ポスター)
+%2.	Sensitivity and network topology in chemical reaction systems. Third BMIRC International Symposium. 2015年2月6日(ポスター)
+%3.	Sensitivity and network topology in chemical reaction systems.生命動態システム科学4拠点・Crest・PRESTO合同シンポジウム. 2015年3月16,17日(ポスター)
+%\end{comment}
+
+
+
+
+
+
+\begin{thebibliography}{99}
+
+
+\subsection*{Biology}
+
+
+
+\bibitem{}T. Ono, T. Okada, R. Ikeda, M. Yamashita, K. Koyauchi, F. Takagi, M. Adachi, T. Takemura, K. Mitsui, and Y. Nagata, ``Recombinant zoster vaccine induces superior immunogenicity compared with live varicella vaccine in allogeneic haematopoietic stem cell transplantation recipients,'' British Journal of Haematology (2026).
+
+\bibitem{}G. Isacchini, T. Okada, C. Schmid, D. R. Popli, B. M. Peter, S. Schiffels, and O. Hallatschek, ``Inferring Migration Networks with Time-Lagged F2 Statistics,'' bioRxiv (2026).
+
+\bibitem{}T. Okada, G. Isacchini, Q. Yu, and O. Hallatschek, ``Uncovering heterogeneous inter-community disease transmission from neutral allele frequency time series,'' PNAS 122(48), e2500663122 (2025).
+
+\bibitem{}Y. J. Huang, T. Okada, and A. Mochizuki, ``Uncovering Bifurcation Behaviors of Biochemical Reaction Systems from Network Topology,'' Scientific Reports 15, 27596 (2025).
+
+\bibitem{} Takaaki Ono, Takashi Okada, et al,
+"Early Prediction of MR4.5 Attainment and Sustained Response in Chronic Myeloid Leukemia Treated with Second-Generation Tyrosine Kinase Inhibitors: Analysis from the JALSG CML212 Road to MR4.5 Study", EHA2025
+
+\bibitem{} Ishizawa, H., Tashiro, Y., Okada, T., Inoue, D., Ike, M. and Futamata, H., 2024. Uncovering the causal relationships in plant-microbe ecosystems: A time series analysis of the duckweed cultivation system for biomass production and wastewater treatment. Science of the Total Environment, 957, p.177717.
+
+\bibitem{}Hosoda, S., Iwata, H., Miura, T., Tanabe, M., Okada, T., Mochizuki, A., Sato, M. BayesianSSA: a Bayesian statistical model based on structural sensitivity analysis for predicting responses to enzyme perturbations in metabolic networks. BMC Bioinformatics, 25, 297(2024).
+
+\bibitem{}Yamauchi, Y., Hishida, A., Okada, T., Mochizuki, A. (2024). Finding regulatory modules of chemical reaction systems. Physical Review Research, 6(2), 023150.
+
+\bibitem{}Yu Q, Ascensao J, Okada T, COVID-19 Genomics UK (COG-UK) consortium, Boyd O, Volz E, Hallatschek O. Lineage frequency time series reveal elevated levels of genetic drift in SARS-CoV-2 transmission in England. PLOS Pathogens (2024).
+
+\bibitem{}Hishida, A., Okada, T. and Mochizuki, A., 2024. Patterns of change in regulatory modules of chemical reaction systems induced by network modification. PNAS nexus, 3(1), p.pgad441.
+
+\bibitem{}Honjo M, Suzuki K, Katai J, Tashiro Y, Aoyagi T, Hori T, Okada T, Saito Y, Futamata H. Stable States of a Microbial Community Are Formed by Dynamic Metabolic Networks with Members Functioning to Achieve Both Robustness and Plasticity. Microbes and Environments. 2024;39(1):ME23091.
+
+\bibitem{} Mori F. and Okada T., ``Information-transfer characteristics in network motifs'', Phys. Rev. Research 5, 013037, 2023.
+
+\bibitem{}Okada T, Miyagi H, Sako Y, Hiroshima M, Mochizuki A. Origin of diverse phosphorylation patterns in the ERBB system. Biophysical Journal. 2022 Feb 1;121(3):470-80.
+
+\bibitem{}T. Okada, A.Mochizuki, M. Furuta, and J. C. Tsai, (2021). Flux-augmented bifurcation analysis in chemical reaction network systems. Physical Review E, 103(6), 062212.
+
+\bibitem{}T. Okada, O. Hallatschek, ``Dynamic Sampling Bias and overdispersion induced by skewed offspring distributions,'' Genetics  219.4 (2021): iyab135.
+
+\bibitem{}Y. Hirono, T. Okada, H. Miyazaki, and Y. Hidaka ``Structural reduction of chemical reaction networks based on topology.'', Physical Review Research, 3.4 (2021): 043123.
+
+\bibitem{}F. Mori, and T. Okada, ``Diagrammatic expansion of information flows in stochastic Boolean networks, Phys. Rev. Research 2, 043432 (2020)
+
+\bibitem{} T. Okada, JC. Tsai, A. Mochizuki  ``Structural Bifurcation Analysis in Chemical Reaction Networks,'' Physical Review E, 98(1), 012417 (2018).
+
+\bibitem{}Ferjani, Ali, et al. ``Pyrophosphate inhibits gluconeogenesis by restricting UDP-glucose formation in vivo." Scientific reports 8.1 (2018): 14696.
+
+\bibitem{OM2} T. Okada, and A. Mochizuki, ``Sensitivity and Network Topology in Chemical Reaction Systems,'' Phys. Rev. E 96, 022322 (2017).
+
+\bibitem{arc} T. Okada, ``Ligand-concentration sensitivity of a multi-state receptor,''  arXiv:1706.08346.
+
+\bibitem{OM1} T. Okada,  and A. Mochizuki, ``Law of localization in chemical reaction networks,''  Physical Review Letters 117.4 (2016): 048101.
+
+\subsection*{Particle Physics and String Theory (alphabetic order by surname)}
+\bibitem{} M. Asano, J. Hisano, T. Okada and S. Sugiyama, ``A Realistic Extension of Gauge-Mediated SUSY-Breaking Model with Superconformal Hidden Sector,'' Phys. Lett. B 673, 146 (2009) [arXiv:0810.4606 [hep-ph]].
+
+\bibitem{} H. Kawai and T. Okada, ``Asymptotically Vanishing Cosmological Constant in the Multiverse,'' Int. J. Mod. Phys. A 26, 3107 (2011) [arXiv:1104.1764 [hep-th]].
+
+\bibitem{} T. Nishinaka, T. Okada, T. Okazaki and S. Yamaguchi, ``Evidence for Duality of Conifold from Fundamental String,'' JHEP 1110, 051 (2011) [arXiv:1107.3660 [hep- th]].
+\bibitem{}  H. Kawai and T. Okada, ``Solving the Naturalness Problem by Baby Universes in the Lorentzian Multiverse,''  Prog. Theor. Phys. 127, 689 (2012) [arXiv:1110.2303 [hep-th]].
+
+\bibitem{} Y. Asano, G. Ishiki, T. Okada and S. Shimasaki, ``Large-N reduction for N=2 quiver Chern-Simons theories on S3 and localization in matrix models,'' Phys. Rev. D 85, 106003 (2012) [arXiv:1203.0559 [hep-th]].
+\bibitem{} T. Kikuchi, T. Okada and Y. Sakatani, ``Rotating string in doubled geometry with generalized isometries,'' Phys. Rev. D 86, 046001 (2012) [arXiv:1205.5549 [hep-th]].
+\bibitem{shorei} Y. Asano, G. Ishiki, T. Okada and S. Shimasaki, ``Exact results for perturbative partition functions of theories with $S U (2|4)$ symmetry,''  JHEP 1302 (2013) 148, arXiv:1211.0364 [hep-th].
+\bibitem{} Y. Asano, G. Ishiki, T. Okada and S. Shimasaki,``Emergent bubbling geometry in the plane wave matrix model,'' JHEP 1405 (2014) 075, arXiv:1401.5079 [hep-th]
+\bibitem{} Y. Sakatani, T. Okada, “ Defect branes as Alice strings ”, JHEP 1503 (2015) 131
+
+
+\end{thebibliography}
+
+\section*{Books}
+\begin{enumerate}
+\item  日本物理学会誌2018年１月号, 最近の研究から：生体内化学反応はトポロジーで決まる。
+\item 日本数理生物学会2022年JSMB-Newsletter95寄稿,化学反応ネットワークとしての生物システム。
+\item 現代科学（化学同人）、2026年1月号出版予定、代謝システムをネットワーク構造から読み解く。
+
+\end{enumerate}
+
+\section*{{\bf Talks  }}
+\begin{enumerate}
+
+
+\subsection*{Biology}
+\item ``Sensitivity and network topology in biochemical reaction system,'' RIKEN-NCSB joint meeting for theoretical biology. April, 2015
+\item  ``Chemical Reaction Network and Sensitivity,'' Mathematical Science Design Dojo, Shizuoka, June, 2015.
+\item  ``Perturbation-response relation and network topology in chemical reaction systems,'' Japanese Society for Mathematical Biology, Doshisha University, August, 2015.
+\item ``Dynamical behaviors of chemical reaction networks,'' Symposium “Dynamics and logics in cell systems”, RIKEN ,April 2016
+\item ``Response-perturbation relation and network topology in chemical reaction systems,'' iTHES Mathematical symposium, RIKEN, April 2016.
+\item ``Sensitivity and topology of chemical reaction networks,'' Controlling Complex Network Systems in Biology, RIKEN, September, 2016.
+\item ``Law of localization in chemical reaction networks,'' Japanese Society for Mathematical Biology, Kyushu University, September, 2016.
+\item ``Sensitivity and network topology in biochemical reaction systems,'' The Physical Society of Japan Conference, March 2017.
+
+\item ``Emergent bias in populations with broad offspring number distributions'',  The 7th China-India-Japan-Korea International Conference on Mathematical Biology, the University of Science and Technology Beijing, August 2019
+\item ``Evolutionary dynamics of populations with broad offspring number distributions'',  Japanese Society for Mathematical Biology, Tokyo Institute of Technology, September 2019
+
+\item ``Evolutionary dynamics of traveling wave populations'', Invited seminar, Taiwan National Tsing-Hua University,  December 2019
+
+
+\item ``Emergent time-dependent sampling bias in populations with broad offspring number distributions'', Takashi Okada, Oskar Hallatschek, APS March meeting 2021, March 16
+
+\item ``The offspring number distribution of traveling wave models in heterogeneous environments'', Japanese Society for Mathematical Biology,  2020 September 21
+
+
+
+\item ``Network architecture determines the sensitivity of chemical reaction systems'', Takashi Okada,  60th annual meeting of the Biophysical Society of Japan, 2022,
+Sep 29 (as an organizer of the symposium)
+
+\item ``Lineage frequency fluctuations reveal the spatial dynamics of disease transmission in SARS-CoV-2'', Takashi Okada, APS March Meeting 2023
+
+\item ``Network topology determines robustness and flexibility
+ of chemical reaction systems '', Takashi Okada, ICIAM 2023 (invited), Aug 2023
+
+\item ``生化学反応ネットワークにおける摂動応答・分岐現象をネットワーク 構造から理解する '', Takashi Okada, JSMB 2023 (invited), Sep 2023
+
+\item ``Network topology determines
+robustness and flexibility of chemical reaction systems'', Takashi Okada, The University of Cambridge, chemical engineering dept. and Hitachi Cambridge (invited), Oct 12, 2023
+
+\item ``Determining regulations of biochemical reaction systems
+from network topology '',  The 29th
+East Asia Joint Symposium (invited), Oct 25, 2023
+
+\item ``Network topology determines
+robustness and flexibility of chemical reaction systems'', Takashi Okada, RIKEN (invited), Nov 13, 2023
+
+
+\item ``生化学反応ネットワークの力学的挙動とネットワークトポロジー'', 岡田崇, ネットワーク科学研究会2023 (invited), Dec 23, 2023
+
+\item ``Deciphering the Dynamics and Functions of Metabolic Networks
+ from Their Network Structures'', Takashi Okada, YongJin Huan, Atsushi Mochizuki, 第47回分子生物学会, Nov 29, 2024, Takashi Okada
+
+\item ``Sensitivities and network topology in biochemical reaction systems'', Physics 2024, Oct 21 2024
+
+\item ``Robustness and Plasticity Emerging from Network Topology in Chemical Reaction Systems'', ACMB-JSMB 2025, Kyoto, (organizer of special symposia)
+\subsection*{Particle Physics and String Theory}
+
+\item ``Double Scaling Limits in Plane-Wave Matrix Model,'' November 15, 2013, Kavli Institute for Theoretical Physics, University of California, Santa Barbara
+\item ``Exact results of Plane Wave Matrix Model and Gauge/Gravity correspondence,'' April 26, 2013, Yukawa Institute of Theoretical Physics
+ \item ``Localization in Plane-Wave Matrix Model,'' The Physical Society of Japan 2013 fall meeting
+\item ``Large-N reduction for supersymmetric Chern-Simons theories,'' The Physical Society of Japan 2012 spring meeting
+ \item ``Localization and Large-N reduction on 3-sphere,'' YITP Workshop Field Theory and String Theory 2012 July 23-27
+ \item ``The naturalness problem and the wave function of the multiverse,'' Shizuoka University, January 2012
+\item ``The naturalness problem and the wave function of the multiverse,'' University of Tokyo, December 2011
+ \item ``The naturalness problem and the wave function of the multiverse,'' Osaka University, May 2011
+
+
+\end{enumerate}
+
+%\bigskip
+% Footer
+%\begin{center}
+%  \begin{footnotesize}
+%    Last updated: \today \\
+%    \href{\footerlink}{\texttt{\footerlink}}
+%  \end{footnotesize}
+%\end{center}
+
+\end{document}
