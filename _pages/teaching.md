@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Teaching"
-title_ja: "講義"
+title_ja: "Teaching"
 permalink: /teaching/
 ---
 

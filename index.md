@@ -108,7 +108,7 @@ layout: home
     </a>
     <a href="{{ '/teaching/' | relative_url }}"
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
-      <span class="en-only">Teaching</span><span class="ja-only">講義</span> ↗
+      <span class="en-only">Teaching</span><span class="ja-only">Teaching</span> ↗
     </a>
     <a href="{{ '/cv/' | relative_url }}"
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
