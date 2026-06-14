@@ -98,6 +98,10 @@ layout: home
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
       <span class="en-only">Publications</span><span class="ja-only">論文</span> ↗
     </a>
+    <a href="{{ '/members/' | relative_url }}"
+       style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
+      <span class="en-only">Members</span><span class="ja-only">メンバー</span> ↗
+    </a>
     <a href="{{ '/talks/' | relative_url }}"
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
       <span class="en-only">Talks</span><span class="ja-only">Talks</span> ↗
@@ -106,17 +110,13 @@ layout: home
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
       <span class="en-only">Teaching</span><span class="ja-only">講義</span> ↗
     </a>
-    <a href="{{ '/members/' | relative_url }}"
+    <a href="{{ '/cv/' | relative_url }}"
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
-      <span class="en-only">Members</span><span class="ja-only">メンバー</span> ↗
+      CV ↗
     </a>
     <a href="{{ '/contact/' | relative_url }}"
        style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
       <span class="en-only">Contact</span><span class="ja-only">連絡先</span> ↗
-    </a>
-    <a href="{{ '/cv/' | relative_url }}"
-       style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
-      CV ↗
     </a>
   </p>
 
