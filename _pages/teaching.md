@@ -13,6 +13,7 @@ Lecture and study notes.
 - [Introduction to chemical reaction networks](/assets/notes/crn_notes.pdf)
 - [Dynamic mode decomposition](/assets/notes/dmd_notes.pdf)
 - [Recurrent neural networks](/assets/notes/rnn_notes.pdf)
+- [Fitness landscapes](/assets/notes/fitness_landscape_notes.pdf)
 
 </div>
 <div class="ja-only" markdown="1">
@@ -23,5 +24,6 @@ Lecture and study notes.
 - [化学反応ネットワークの基礎](/assets/notes/crn_notes.pdf)
 - [動的モード分解（Dynamic Mode Decomposition）](/assets/notes/dmd_notes.pdf)
 - [リカレントニューラルネットワーク（RNN）](/assets/notes/rnn_notes.pdf)
+- [適応度地形（Fitness landscape）](/assets/notes/fitness_landscape_notes.pdf)
 
 </div>
