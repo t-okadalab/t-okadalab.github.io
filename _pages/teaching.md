@@ -26,6 +26,6 @@ Lecture and study notes.
 - [動的モード分解（Dynamic Mode Decomposition）](/assets/notes/dmd_notes.pdf)
 - [リカレントニューラルネットワーク（RNN）](/assets/notes/rnn_notes.pdf)
 - [適応度地形（Fitness landscape）](/assets/notes/fitness_landscape_notes.pdf)
-- [熱力学・統計力学](/assets/notes/thermo_statmech.pdf)
+- [熱力学・統計力学ノート](/assets/notes/thermo_statmech.pdf)
 
 </div>
