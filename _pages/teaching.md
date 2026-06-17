@@ -14,6 +14,7 @@ Lecture and study notes.
 - [Dynamic mode decomposition](/assets/notes/dmd_notes.pdf)
 - [Recurrent neural networks](/assets/notes/rnn_notes.pdf)
 - [Fitness landscapes](/assets/notes/fitness_landscape_notes.pdf)
+- [Thermodynamics and statistical mechanics](/assets/notes/thermo_statmech.pdf)
 
 </div>
 <div class="ja-only" markdown="1">
@@ -25,5 +26,6 @@ Lecture and study notes.
 - [動的モード分解（Dynamic Mode Decomposition）](/assets/notes/dmd_notes.pdf)
 - [リカレントニューラルネットワーク（RNN）](/assets/notes/rnn_notes.pdf)
 - [適応度地形（Fitness landscape）](/assets/notes/fitness_landscape_notes.pdf)
+- [熱力学・統計力学](/assets/notes/thermo_statmech.pdf)
 
 </div>
