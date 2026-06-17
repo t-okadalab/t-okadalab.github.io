@@ -15,6 +15,7 @@ Lecture and study notes.
 - [Recurrent neural networks](/assets/notes/rnn_notes.pdf)
 - [Fitness landscapes](/assets/notes/fitness_landscape_notes.pdf)
 - [Thermodynamics and statistical mechanics](/assets/notes/thermo_statmech.pdf)
+- [List of mathematical models](/assets/notes/mathbio_models.pdf)
 
 </div>
 <div class="ja-only" markdown="1">
@@ -27,5 +28,6 @@ Lecture and study notes.
 - [リカレントニューラルネットワーク（RNN）](/assets/notes/rnn_notes.pdf)
 - [適応度地形（Fitness landscape）](/assets/notes/fitness_landscape_notes.pdf)
 - [熱力学・統計力学ノート](/assets/notes/thermo_statmech.pdf)
+- [数理モデルリスト](/assets/notes/mathbio_models.pdf)
 
 </div>
