@@ -22,7 +22,7 @@ Lecture and study notes.
 
 講義・勉強用ノート。
 
-- [Wright–Fisher ダイナミクス](/assets/notes/WF_notes.pdf)
+- [集団遺伝学（Wright-Fisher Model)](/assets/notes/WF_notes.pdf)
 - [化学反応ネットワークの基礎](/assets/notes/crn_notes.pdf)
 - [動的モード分解（Dynamic Mode Decomposition）](/assets/notes/dmd_notes.pdf)
 - [リカレントニューラルネットワーク（RNN）](/assets/notes/rnn_notes.pdf)
