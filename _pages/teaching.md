@@ -10,6 +10,7 @@ permalink: /teaching/
 Lecture and study notes.
 
 - [Wright–Fisher dynamics](/assets/notes/WF_notes.pdf)
+- [Wright–Fisher dynamics (short version)](/assets/notes/wf_notes_short.pdf)
 - [Fitness landscapes](/assets/notes/fitness_landscape_notes.pdf)
 - [Thermodynamics and statistical mechanics for non-physicists](/assets/notes/thermo_statmech.pdf)
 - [Introduction to chemical reaction networks](/assets/notes/crn_notes.pdf)
@@ -23,6 +24,7 @@ Lecture and study notes.
 講義・勉強用ノート。
 
 - [集団遺伝学（Wright-Fisher Model)の数理入門](/assets/notes/WF_notes.pdf)
+- [集団遺伝学（Wright-Fisher Model)の数理入門（短縮版）](/assets/notes/wf_notes_short.pdf)
 - [適応度地形（Fitness landscape）のノート](/assets/notes/fitness_landscape_notes.pdf)
 - [非物理学者のための熱力学・統計力学速習ノート](/assets/notes/thermo_statmech.pdf)
 - [化学反応ネットワークの基礎](/assets/notes/crn_notes.pdf)
