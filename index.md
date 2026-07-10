@@ -127,6 +127,7 @@ layout: home
     News
   </div>
   <ul id="news-list" style="font-size:1rem; line-height:1.7; margin:0; padding-left:1.2rem;">
+    <li><span style="opacity:0.6;">2026.07</span>　<a href="https://www.aimsconference.org/conferences/2026/index.html" target="_blank">AIMS 2026</a> (Greece) の Special Session "Dynamical Systems in Mathematical Biology: Epidemiology, Population Dynamics, and Reaction Networks" にて、講演しました。タイトル "Structural Determination of Bifurcation and Multistability in Chemical Reaction Networks"。</li>
     <li><span style="opacity:0.6;">2026.06</span>　浜松医科大学 小野孝明先生らとの共同研究で、論文 "Early predictors of MR4.5 attainment and eligibility for TKI discontinuation in CML treated with second-generation TKIs" がBlood Advancesに受理されました。</li>
     <li><span style="opacity:0.6;">2026.04</span>　British Journal of Haematologyに論文 "Recombinant zoster vaccine induces superior immunogenicity compared with live varicella vaccine in allogeneic haematopoietic stem cell transplantation recipients" を発表しました。</li>
     <li><span style="opacity:0.6;">2026.04</span>　松尾直樹さん(B4)が研究室に加わりました。</li>

@@ -61,6 +61,8 @@ permalink: /talks/
 
 1. "Flux Distributions Determine Phenotypic Landscape in Metabolic Networks," 学術変革領域A EPIC assembly 領域会議 (Poster), June 2026.
 
+1. "Structural Determination of Bifurcation and Multistability in Chemical Reaction Networks," Special Session "Dynamical Systems in Mathematical Biology: Epidemiology, Population Dynamics, and Reaction Networks", [AIMS 2026](https://www.aimsconference.org/conferences/2026/index.html), Greece, July 2026.
+
 ---
 
 ## Particle Physics / String Theory
