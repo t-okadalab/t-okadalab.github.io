@@ -127,7 +127,7 @@ layout: home
     News
   </div>
   <ul id="news-list" style="font-size:1rem; line-height:1.7; margin:0; padding-left:1.2rem;">
-    <li><span style="opacity:0.6;">2026.07.31</span>　T. Okada gave an invited seminar "Network structure shapes dynamical properties of chemical reaction systems" at NYCU (Taiwan).</li>
+    <li><span style="opacity:0.6;">2026.07.31</span>　国立陽明交通大学 (NYCU、台湾) にて、招待セミナー "Network structure shapes dynamical properties of chemical reaction systems" を行いました。</li>
     <li><span style="opacity:0.6;">2026.07.10</span>　<a href="https://www.aimsconference.org/conferences/2026/index.html" target="_blank">AIMS 2026</a> (Greece) の Special Session "Dynamical Systems in Mathematical Biology: Epidemiology, Population Dynamics, and Reaction Networks" にて、講演しました。タイトル "Structural Determination of Bifurcation and Multistability in Chemical Reaction Networks"。</li>
     <li><span style="opacity:0.6;">2026.07</span>　Prof. Je-Chiang Tsai (National Tsing Hua University, Taiwan) visited our lab.</li>
     <li><span style="opacity:0.6;">2026.06</span>　浜松医科大学 小野孝明先生らとの共同研究で、論文 "Early predictors of MR4.5 attainment and eligibility for TKI discontinuation in CML treated with second-generation TKIs" がBlood Advancesに受理されました。</li>
