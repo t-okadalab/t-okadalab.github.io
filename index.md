@@ -127,6 +127,9 @@ layout: home
     News
   </div>
   <ul id="news-list" style="font-size:1rem; line-height:1.7; margin:0; padding-left:1.2rem;">
+    <li><span style="opacity:0.6;">2026.09.08</span>　Gave an invited talk "Open questions and challenges: Structural Analysis of Chemical Reaction Networks" at the workshop "Dynamical Systems with a Network Structure", Lorentz Center, Leiden, the Netherlands.</li>
+    <li><span style="opacity:0.6;">2026.09.07</span>　Gave an invited talk "What can we conclude from network topology of chemical reaction systems?" at the workshop "Dynamical Systems with a Network Structure", Lorentz Center, Leiden, the Netherlands.</li>
+    <li><span style="opacity:0.6;">2026.08.27</span>　Gave an invited talk "Multistability in Biochemical Reaction Systems" at the iTHEMS Biology Seminar, RIKEN.</li>
     <li><span style="opacity:0.6;">2026.07.31</span>　国立陽明交通大学 (NYCU、台湾) にて、招待セミナー "Network structure shapes dynamical properties of chemical reaction systems" を行いました。</li>
     <li><span style="opacity:0.6;">2026.07.10</span>　<a href="https://www.aimsconference.org/conferences/2026/index.html" target="_blank">AIMS 2026</a> (Greece) の Special Session "Dynamical Systems in Mathematical Biology: Epidemiology, Population Dynamics, and Reaction Networks" にて、講演しました。タイトル "Structural Determination of Bifurcation and Multistability in Chemical Reaction Networks"。</li>
     <li><span style="opacity:0.6;">2026.07</span>　Prof. Je-Chiang Tsai (National Tsing Hua University, Taiwan) visited our lab.</li>
