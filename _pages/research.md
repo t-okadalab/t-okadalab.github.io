@@ -13,65 +13,9 @@ permalink: /research/
 
 <div class="en-only" markdown="1">
 
-## Network structure and control responses in chemical reaction networks
-
-![image-left](/assets/images/ecoli.jpg){:height="400px" width="600px"}
-
-Inside cells, chemical reactions are connected by sharing the same chemical species (reactants and products), forming large-scale networks such as metabolic pathways.
-
-In this research, we developed a theory that predicts—*from the network connectivity alone*—how metabolite concentrations and **reaction fluxes** at steady state change (i.e., sensitivities/responses) when enzyme activities are perturbed.
-
-We found that nonzero responses exhibit two key properties:
-
-**Localization:** For steady states, the effect of an enzyme perturbation does not spread across the entire network. Instead, it remains confined to a specific substructure (a **buffering structure**) characterized by a topological invariant analogous to the Euler characteristic:
-*(# of species − # of reactions + # of independent cycles = 0).*
-
-**Hierarchy:** Buffering structures can be nested, which makes the influence propagate in a stepwise manner --- "upstream → downstream".
-
-These results suggest that one reason biological systems are robust to external changes lies in the network structure itself.
-
-We also showed that buffering structures govern not only perturbation responses but also **bifurcation phenomena** in chemical reaction networks (i.e., the diversity/multiplicity of steady states).
-
-### References
-- [Phys. Rev. Lett. 117, 048101 (2016)](https://doi.org/10.1103/PhysRevLett.117.048101)
-- [Phys. Rev. E 98, 012417 (2018)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.98.012417)
-- [Review article (J-STAGE, Japanese)](https://www.jstage.jst.go.jp/article/butsuri/73/1/73_15/_article/-char/ja/)
-
-</div>
-<div class="ja-only" markdown="1">
-
-## 化学反応ネットワークのネットワーク構造と制御応答
-
-![image-left](/assets/images/ecoli.jpg){:height="400px" width="600px"}
-
-細胞の中では、化学反応どうしが「同じ物質（反応物や生成物）を共有する」ことでつながっていて、代謝経路のような大きなネットワークを作っています。
-
-この研究では、酵素の働きを少し変えたときに、物質の濃度や**反応の流れ（フラックス）**がどれくらい変化するか（＝感度／応答）を、ネットワークのつながり方だけから予測できる理論を作りました。
-
-その結果、変化が起きる場所（応答がゼロでない場所）の広がり方には、次の2つの特徴があることが分かりました。
-
-局在化：定常状態に関して、酵素撹乱に対する影響はネットワーク全体に広がるわけではなく、オイラー数に類似した標数（分子の数ー反応の数＋サイクルの数＝０）をもつ特定の部分構造（緩衝構造）にとどまる。
-
-階層性：緩衝構造が入れ子関係を形成することで、影響が「上流→下流」のように、段階的に伝わる
-
-これらの結果は、生物が外からの変化に強い（頑健である）理由の一つが、ネットワークの構造そのものにあることを示唆しています。
-
-また、緩衝構造は撹乱応答だけでなく、化学反応ネットワークにおける分岐現象（定常状態の多様性）を規定していることも分かりました。
-
-### 参考URL / References
-- [Phys. Rev. Lett. 117, 048101（2016）](https://doi.org/10.1103/PhysRevLett.117.048101)
-- [Phys. Rev. E 98, 012417 (2018)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.98.012417)
-- [解説記事（J-STAGE）](https://www.jstage.jst.go.jp/article/butsuri/73/1/73_15/_article/-char/ja/)
-
-</div>
-
----------------------------
-
-<div class="en-only" markdown="1">
-
 ## Interpreting evolutionary fluctuations: a new theory driven by skewed offspring distributions
 
-![image-left](/assets/images/offsp.jpg){:height="350px" width="530px"}
+![image-left](/assets/images/offsp.jpg){: .research-figure height="350px" width="530px"}
 
 In many natural populations, individuals differ greatly in the number of offspring they leave. While most individuals leave few or no offspring, a small fraction can leave an exceptionally large number. In such situations, allele frequencies can fluctuate strongly due to chance—this is known as **genetic drift**.
 
@@ -93,7 +37,7 @@ Such non-classical evolutionary laws are now beginning to be observed in fast-ev
 
 ## 進化の揺らぎを読み解く - 子孫数の偏りが生む新しい揺らぎの理論
 
-![image-left](/assets/images/offsp.jpg){:height="350px" width="630px"}
+![image-left](/assets/images/offsp.jpg){: .research-figure height="350px" width="630px"}
 
 自然界の多くの集団では、子どもの数が個体ごとに大きく異なることが知られています。
 ほとんど子どもを残さない個体が多い一方で、ごく少数の個体が非常に多くの子どもを残す場合があります。こうした状況では、遺伝子の頻度が偶然によって大きく変動しやすくなります（これを遺伝的浮動と呼びます）。
@@ -121,7 +65,7 @@ Such non-classical evolutionary laws are now beginning to be observed in fast-ev
 
 ## Inferring Viral Transmission Pathways from Allele Frequency Time-Series Data
 
-![image-left](/assets/images/who_infected_whom.jpg){:height="170px" width="600px"}
+![image-left](/assets/images/who_infected_whom.jpg){: .research-figure width="800px"}
 
 The COVID-19 pandemic has renewed awareness of the importance of interregional transmission, namely how pathogens spread across geographic regions.
 Traditionally, transmission has been inferred from human mobility data and contact histories; however, it has been difficult to capture rare transmission events occurring between socially or geographically distant regions.
@@ -143,7 +87,7 @@ This study opens a new avenue for genome-based time-series analysis and is expec
 
 ## アレル頻度時系列データに基づくウイルス感染経路の推定
 
-![image-left](/assets/images/who_infected_whom.jpg){:height="170px" width="600px"}
+![image-left](/assets/images/who_infected_whom.jpg){: .research-figure width="800px"}
 
 COVID-19のパンデミックは、病原体がどのように地域を越えて広がっていくのかという「地域間伝播」の重要性を再認識させました。従来は、人の移動データや接触履歴に基づいて伝播を推定してきましたが、社会的・地理的に離れた地域間で起きるような稀な伝播イベントを捉えることは困難でした。
 
@@ -162,9 +106,65 @@ COVID-19のパンデミックは、病原体がどのように地域を越えて
 
 <div class="en-only" markdown="1">
 
+## Network structure and control responses in chemical reaction networks
+
+![image-left](/assets/images/ecoli.jpg){: .research-figure height="400px" width="600px"}
+
+Inside cells, chemical reactions are connected by sharing the same chemical species (reactants and products), forming large-scale networks such as metabolic pathways.
+
+In this research, we developed a theory that predicts—*from the network connectivity alone*—how metabolite concentrations and **reaction fluxes** at steady state change (i.e., sensitivities/responses) when enzyme activities are perturbed.
+
+We found that nonzero responses exhibit two key properties:
+
+**Localization:** For steady states, the effect of an enzyme perturbation does not spread across the entire network. Instead, it remains confined to a specific substructure (a **buffering structure**) characterized by a topological invariant analogous to the Euler characteristic:
+*(# of species − # of reactions + # of independent cycles = 0).*
+
+**Hierarchy:** Buffering structures can be nested, which makes the influence propagate in a stepwise manner --- "upstream → downstream".
+
+These results suggest that one reason biological systems are robust to external changes lies in the network structure itself.
+
+We also showed that buffering structures govern not only perturbation responses but also **bifurcation phenomena** in chemical reaction networks (i.e., the diversity/multiplicity of steady states).
+
+### References
+- [Phys. Rev. Lett. 117, 048101 (2016)](https://doi.org/10.1103/PhysRevLett.117.048101)
+- [Phys. Rev. E 98, 012417 (2018)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.98.012417)
+- [Review article (J-STAGE, Japanese)](https://www.jstage.jst.go.jp/article/butsuri/73/1/73_15/_article/-char/ja/)
+
+</div>
+<div class="ja-only" markdown="1">
+
+## 化学反応ネットワークのネットワーク構造と制御応答
+
+![image-left](/assets/images/ecoli.jpg){: .research-figure height="400px" width="600px"}
+
+細胞の中では、化学反応どうしが「同じ物質（反応物や生成物）を共有する」ことでつながっていて、代謝経路のような大きなネットワークを作っています。
+
+この研究では、酵素の働きを少し変えたときに、物質の濃度や**反応の流れ（フラックス）**がどれくらい変化するか（＝感度／応答）を、ネットワークのつながり方だけから予測できる理論を作りました。
+
+その結果、変化が起きる場所（応答がゼロでない場所）の広がり方には、次の2つの特徴があることが分かりました。
+
+局在化：定常状態に関して、酵素撹乱に対する影響はネットワーク全体に広がるわけではなく、オイラー数に類似した標数（分子の数ー反応の数＋サイクルの数＝０）をもつ特定の部分構造（緩衝構造）にとどまる。
+
+階層性：緩衝構造が入れ子関係を形成することで、影響が「上流→下流」のように、段階的に伝わる
+
+これらの結果は、生物が外からの変化に強い（頑健である）理由の一つが、ネットワークの構造そのものにあることを示唆しています。
+
+また、緩衝構造は撹乱応答だけでなく、化学反応ネットワークにおける分岐現象（定常状態の多様性）を規定していることも分かりました。
+
+### 参考URL / References
+- [Phys. Rev. Lett. 117, 048101（2016）](https://doi.org/10.1103/PhysRevLett.117.048101)
+- [Phys. Rev. E 98, 012417 (2018)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.98.012417)
+- [解説記事（J-STAGE）](https://www.jstage.jst.go.jp/article/butsuri/73/1/73_15/_article/-char/ja/)
+
+</div>
+
+---------------------------
+
+<div class="en-only" markdown="1">
+
 ## Information transmission in control networks
 
-![image-left](/assets/images/info2.jpg){:height="250px" width="600px"}
+![image-left](/assets/images/info2.jpg){: .research-figure height="250px" width="600px"}
 
 Accurate information transmission is a fundamental property shared by biological, social, and technological networks. **Transfer entropy** is a widely used measure that quantifies information flow, but even for small networks it often requires numerical computation, making it difficult to understand *why* information transmission works well.
 
@@ -183,7 +183,7 @@ These results are applicable to understanding and designing real-world networks,
 
 ## 制御ネットワークにおける情報伝達
 
-![image-left](/assets/images/info2.jpg){:height="250px" width="600px"}
+![image-left](/assets/images/info2.jpg){: .research-figure height="250px" width="600px"}
 
 正確な情報伝達は、生物・社会・技術ネットワークに共通して重要な性質です。情報の流れを定量化する指標である**移動エントロピー（Transfer Entropy）**は、通常は小規模なネットワークであっても数値計算に頼る必要があり、なぜ情報がうまく伝わるのかという仕組みは分かりにくいままでした。
 

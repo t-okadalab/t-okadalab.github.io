@@ -1,0 +1,53 @@
+<footer class="site-footer h-card{% if page.url == '/' %} site-footer--with-logos{% endif %}">
+  <data class="u-url" href="{{ '/' | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div class="footer-heading-row">
+      <h2 class="footer-heading">{{ site.title | escape }}</h2>
+      {% if page.url == '/' %}
+      <div class="footer-logos" id="funding-affiliations">
+        <a class="footer-logo-link" href="https://ithems.riken.jp/en">
+          <span class="footer-logo-frame">
+            <img src="{{ '/assets/images/support/riken.png' | relative_url }}" alt="RIKEN iTHEMS" width="800" height="320" loading="lazy">
+          </span>
+        </a>
+        <a class="footer-logo-link" href="https://www.jsps.go.jp/j-grantsinaid/">
+          <span class="footer-logo-frame footer-logo-kakenhi">
+            <img src="{{ '/assets/images/support/kakenhi.png' | relative_url }}" alt="KAKENHI" width="719" height="405" loading="lazy">
+          </span>
+        </a>
+        <a class="footer-logo-link" href="https://www.jst.go.jp/kisoken/presto/">
+          <span class="footer-logo-frame footer-logo-presto">
+            <img src="{{ '/assets/images/support/presto.png' | relative_url }}" alt="さきがけ（PRESTO）" width="191" height="90" loading="lazy">
+          </span>
+        </a>
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">
+            {%- if site.author -%}
+              {{ site.author | escape }}
+            {%- else -%}
+              {{ site.title | escape }}
+            {%- endif -%}
+          </li>
+          {%- if site.email -%}
+          <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {%- endif -%}
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>{{- site.description | escape -}}</p>
+      </div>
+    </div>
+  </div>
+</footer>

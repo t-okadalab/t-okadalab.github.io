@@ -2,41 +2,33 @@
 layout: home
 ---
 
-<div style="padding: 1.2rem 0 0.6rem 0;">
-  <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; margin-bottom:0.1rem;">
-    <div>
-      <div style="font-size:1.4rem; margin-bottom:0.1rem;">
-        <span class="en-only"><a href="https://www.hiroshima-u.ac.jp/ilife/program-of-mathematical-life-sciences" target="_blank" style="text-decoration:none; color:inherit;">Graduate School of Integrated Sciences for Life, Hiroshima University, Japan</a></span>
-        <span class="ja-only"><a href="https://www.hiroshima-u.ac.jp/ilife/program-of-mathematical-life-sciences" target="_blank" style="text-decoration:none; color:inherit;">広島大学　大学院統合生命科学研究科<br>数理生命科学プログラム</a></span>
+<div class="home-intro">
+  <div class="home-brand-row">
+    <div class="home-brand-copy">
+      <div class="home-affiliation">
+        <span class="en-only"><a href="https://www.hiroshima-u.ac.jp/ilife/program-of-mathematical-life-sciences" target="_blank">Graduate School of Integrated Sciences for Life, Hiroshima University, Japan</a></span>
+        <span class="ja-only"><a href="https://www.hiroshima-u.ac.jp/ilife/program-of-mathematical-life-sciences" target="_blank">広島大学　大学院統合生命科学研究科<br>数理生命科学プログラム</a></span>
       </div>
-      <h1 style="margin:0; font-size:2.2rem;">
-        <span class="en-only">Theoretical Biology Group</span>
+      <h1 class="home-title">
+        <span class="en-only">Theoretical Biology Lab</span>
         <span class="ja-only">理論生命システム研究室</span>
       </h1>
     </div>
-    <div style="display:flex; align-items:center; gap:0.6rem;">
-      <img src="{{ '/assets/images/hiroshima_mark.png' | relative_url }}" alt="Hiroshima University" style="height:144px; width:auto;">
-    </div>
+    <img class="home-university-mark" src="{{ '/assets/images/hiroshima_mark.png' | relative_url }}" alt="Hiroshima University">
   </div>
-
-  <hr style="margin:0.8rem 0;">
-
-   <div style="border:1px solid #e5e5e5; border-radius:14px; padding:14px; margin-top:0.8rem; max-width:56rem;">
-    <div style="font-size:1.8rem;font-weight:600; opacity:1.;">
-      <span class="ja-only">岡田　崇　</span>Takashi Okada
+  <div class="home-profile">
+    <div>
+      <div class="home-profile-name"><span class="ja-only">岡田　崇　</span>Takashi Okada</div>
+      <div class="home-profile-position">
+        <span class="en-only">(Associate Professor, <a href="https://www.hiroshima-u.ac.jp/ilife/program-of-mathematical-life-sciences">Hiroshima Univ.</a> / Visiting Researcher, <a href="https://ithems.riken.jp/en/members/takashi-okada">RIKEN iTHEMS</a>)</span>
+        <span class="ja-only">（<a href="https://www.hiroshima-u.ac.jp/ilife/program-of-mathematical-life-sciences">広島大学</a>・PI・准教授 / 理研iTHEMS・<a href="https://ithems.riken.jp/en/members/takashi-okada">客員研究員</a>）</span>
+      </div>
     </div>
-    <div style="font-size:1.3rem;font-weight:600; opacity:.5;">
-      <span class="en-only">(Associate Professor, <a href="https://www.hiroshima-u.ac.jp/ilife/program-of-mathematical-life-sciences">Hiroshima Univ.</a> / Visiting Researcher, <a href="https://ithems.riken.jp/en/members/takashi-okada">RIKEN iTHEMS</a>)</span>
-      <span class="ja-only">（<a href="https://www.hiroshima-u.ac.jp/ilife/program-of-mathematical-life-sciences">広島大学</a>・PI・准教授 / 理研iTHEMS・<a href="https://ithems.riken.jp/en/members/takashi-okada">客員研究員</a>）</span>
-    </div>
-
-    <div style="font-size:0.9rem; opacity:0.75; margin-top:0.35rem;">
-      (<a href="{{ '/cv/' | relative_url }}">CV</a>)
-    </div>
+    <a class="home-cv-link" href="{{ '/cv/' | relative_url }}">CV <span aria-hidden="true">↗</span></a>
   </div>
 </div>
 
-<div style="position:relative; border-radius:16px; overflow:hidden; border:1px solid #eee; margin:0.8rem 0; max-width:56rem;">
+<div class="home-figure">
   <img src="{{ '/assets/images/haplotypes_v2.jpg' | relative_url }}"
        alt="Haplotype-frequency dynamics of seasonal influenza virus"
        style="display:block; width:100%; height:auto;">
@@ -51,7 +43,7 @@ layout: home
       line-height:1.15;
       pointer-events:none;
     ">
-    Haplotype-frequency dynamics of seasonal influenza virus
+    Seasonal influenza virus
   </div>
 </div>
 
@@ -66,19 +58,19 @@ layout: home
   生命システムは要素を個別に調べるだけでは不十分で、相互作用から全体として普遍的な法則が立ち現れます。分子反応ネットワーク、微生物群集の相互作用、ウイルス進化と感染拡大、神経ネットワークといったさまざまなシステムを対象に、確率過程・統計物理・情報理論・機械学習を駆使した数理モデルと推定手法を開発し、データと理論を往復して普遍原理を抽出します。また、得られた原理をもとに生命動態の予測・制御の指針へ展開し、実験・観測とも連携して検証します。
 </p>
 
-<div style="font-size:0.95rem; opacity:0.9; margin-top:0.65rem; max-width: 56rem;" class="en-only">
+<div class="research-themes en-only">
   <strong>Research themes</strong>
-  <ul style="margin-top:0.4rem; line-height:1.5;">
-    <li><strong>Reaction networks:</strong> connectivity, robustness, and multistability in biochemical systems</li>
+  <ul>
     <li><strong>Evolutionary dynamics:</strong> genetic drift with extreme reproductive variability; phylodynamics from time series</li>
+    <li><strong>Reaction networks:</strong> connectivity, robustness, and multistability in biochemical systems</li>
     <li><strong>Information &amp; control:</strong> information flow and interpretable theory for stochastic control networks</li>
   </ul>
 </div>
-<div style="font-size:0.95rem; opacity:0.9; margin-top:0.65rem; max-width: 56rem;" class="ja-only">
+<div class="research-themes ja-only">
   <strong>研究テーマ</strong>
-  <ul style="margin-top:0.4rem; line-height:1.5;">
-    <li><strong>反応ネットワーク：</strong>生化学システムの連結性・頑健性・多安定性</li>
+  <ul>
     <li><strong>進化ダイナミクス：</strong>極端な繁殖変動を伴う遺伝的浮動・時系列データからの系統動態</li>
+    <li><strong>反応ネットワーク：</strong>生化学システムの連結性・頑健性・多安定性</li>
     <li><strong>情報と制御：</strong>確率的制御ネットワークにおける情報流と解釈可能な理論</li>
   </ul>
 </div>
@@ -89,33 +81,33 @@ layout: home
   </p>
 
   <!-- Quick links / CTAs -->
-  <p style="margin: 0.9rem 0 0.2rem 0; display:flex; gap:10px; flex-wrap:wrap;">
+  <p class="quick-links">
     <a href="{{ '/research/' | relative_url }}"
-       style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
+       class="quick-link">
       <span class="en-only">Research</span><span class="ja-only">研究概要</span> ↗
     </a>
     <a href="{{ '/publications/' | relative_url }}"
-       style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
+       class="quick-link">
       <span class="en-only">Publications</span><span class="ja-only">論文</span> ↗
     </a>
     <a href="{{ '/members/' | relative_url }}"
-       style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
+       class="quick-link">
       <span class="en-only">Members</span><span class="ja-only">メンバー</span> ↗
     </a>
     <a href="{{ '/talks/' | relative_url }}"
-       style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
+       class="quick-link">
       <span class="en-only">Talks</span><span class="ja-only">Talks</span> ↗
     </a>
     <a href="{{ '/teaching/' | relative_url }}"
-       style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
+       class="quick-link">
       <span class="en-only">Teaching</span><span class="ja-only">Teaching</span> ↗
     </a>
     <a href="{{ '/cv/' | relative_url }}"
-       style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
+       class="quick-link">
       CV ↗
     </a>
     <a href="{{ '/contact/' | relative_url }}"
-       style="display:inline-block; padding:0.55rem 0.9rem; border:1px solid #111; border-radius:999px; text-decoration:none;">
+       class="quick-link">
       <span class="en-only">Contact</span><span class="ja-only">連絡先</span> ↗
     </a>
   </p>
@@ -123,7 +115,7 @@ layout: home
 <hr style="margin:1.0rem 0 1.0rem 0;">
 
 <div style="max-width: 56rem; margin-bottom: 1.2rem;">
-  <div style="font-size:1.1rem; font-weight:600; margin-bottom:0.6rem;">
+  <div class="home-section-title">
     News
   </div>
   <ul id="news-list" style="font-size:1rem; line-height:1.7; margin:0; padding-left:1.2rem;">
@@ -169,7 +161,7 @@ layout: home
 </div>
 
 <div style="max-width: 56rem;">
-  <div style="font-size:1.1rem; font-weight:600; margin-bottom:0.6rem;">
+  <div class="home-section-title">
     <span class="en-only">Recent Publications</span>
     <span class="ja-only">最近の論文</span>
   </div>

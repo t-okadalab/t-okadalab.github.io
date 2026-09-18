@@ -7,6 +7,7 @@ $content-width: 1080px;
 /* ── Typography ── */
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.75;
   background: linear-gradient(
     160deg,
     #001f3f 0%,
@@ -41,41 +42,64 @@ body::before {
 
 /* ── Header ── */
 .site-header {
-  background: #ffffff;
-  border: 2px solid #FDB515;
+  background: #102d49;
+  border: 0;
+  border-bottom: 3px solid #d7b668;
   box-shadow: none;
 }
 
 .site-title {
-  font-size: 2.19rem;
+  font-size: 1.75rem;
   font-weight: 700;
   letter-spacing: -0.5px;
-  color: #1a1a2e !important;
-  &:visited { color: #1a1a2e !important; }
+  color: #ffffff !important;
+  &:visited { color: #ffffff !important; }
 }
 
 .page-link {
-  font-size: 1.37rem;
+  font-size: 1rem;
   font-weight: 500;
-  color: #3a3a5c !important;
+  color: #e1eaf3 !important;
   letter-spacing: -0.2px;
   transition: color 0.15s;
-  &:hover { color: #1d4ed8 !important; }
+  &:hover { color: #f0d58f !important; }
 }
 
 /* ── Content area ── */
 .page-content .wrapper {
-  background: #ffffff;
+  background: #f6f5ef;
   border-radius: 12px;
-  padding: 32px 28px;
-  border: 2px solid #FDB515;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 4px 16px rgba(0,0,0,0.06);
+  padding: 36px 32px;
+  border: 1px solid #e4dfd1;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.12);
+}
+
+/* ── Research figures ── */
+.research-figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* ── Footer ── */
 .site-footer {
-  background: #ffffff;
-  border-top: 1px solid #e8eaed;
+  background: #f6f5ef;
+  border-top: 1px solid #e4dfd1;
+}
+.site-footer--with-logos { background: #ffffff; }
+.footer-heading-row { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 15px; }
+.footer-heading-row .footer-heading { margin: 0; }
+.footer-logos { display: grid; grid-template-columns: repeat(3, 120px); gap: 16px; }
+.footer-logo-link { display: block; min-width: 0; }
+.footer-logo-link:focus-visible { outline: 2px solid #254d72; outline-offset: 3px; }
+.footer-logo-frame { display: flex; align-items: center; justify-content: center; width: 100%; height: 68px; overflow: hidden; }
+.footer-logo-frame img { display: block; width: 100px; height: auto; max-width: 100%; flex-shrink: 0; }
+/* Account for the white margin in the supplied KAKENHI image. */
+.footer-logo-kakenhi img { width: 150%; max-width: none; transform: translateX(-3%); }
+.footer-logo-presto img { width: 114px; }
+@media (max-width: 600px) {
+  .footer-heading-row { flex-wrap: wrap; gap: 12px; }
+  .footer-logos { width: 100%; max-width: 392px; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 }
 
 /* ── Links ── */
@@ -98,10 +122,10 @@ html:not(.ja-mode) .ja-only { display: none !important; }
 html.ja-mode .en-only { display: none !important; }
 
 .lang-toggle-btn {
-  background: none;
-  border: 1px solid #c5c8d0;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid #647f97;
   border-radius: 6px;
-  color: #3a3a5c;
+  color: #ffffff;
   cursor: pointer;
   font-family: 'Inter', sans-serif;
   font-size: 0.85rem;
@@ -110,8 +134,55 @@ html.ja-mode .en-only { display: none !important; }
   vertical-align: middle;
   transition: background 0.15s, border-color 0.15s;
   &:hover {
-    background: #f0f2f5;
-    border-color: #1d4ed8;
-    color: #1d4ed8;
+    background: #244666;
+    border-color: #d7b668;
+    color: #f0d58f;
   }
+}
+
+/* A brighter first impression, within the original page structure. */
+.home-intro { padding: 10px 0 8px; max-width: 56rem; }
+.home-brand-row { display: grid; grid-template-columns: minmax(0, 1fr) 84px; gap: 26px; align-items: center; padding: 0 0 25px; border-bottom: 1px solid #e8dfc5; }
+.home-affiliation { font-size: 13px; line-height: 1.8; color: #587087; margin-bottom: 13px; }
+.home-affiliation a { color: inherit; text-decoration: none; }
+.home-title { font-size: clamp(28px, 3.5vw, 40px); font-weight: 700; line-height: 1.4; letter-spacing: -0.035em; color: #123856; margin: 0; }
+.home-university-mark { width: 84px; height: auto; }
+.home-profile { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-top: 24px; padding: 19px 22px; background: #f1f6fa; border-left: 3px solid #d7b668; border-radius: 0 9px 9px 0; }
+.home-profile-name { color: #163952; font-size: 23px; font-weight: 600; line-height: 1.5; }
+.home-profile-position { color: #52697d; font-size: 13px; line-height: 1.8; margin-top: 5px; }
+.home-cv-link { flex-shrink: 0; font-size: 13px; padding: 6px 10px; border: 1px solid #c5d4e1; border-radius: 6px; text-decoration: none; }
+.home-figure { position: relative; overflow: hidden; margin: 20px 0 25px; max-width: 56rem; border-radius: 10px; border: 1px solid #d7e0e7; }
+.research-themes { margin: 26px 0; max-width: 56rem; font-size: 14px; }
+.research-themes > strong { color: #163952; font-size: 16px; }
+.research-themes ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; list-style: none; margin: 15px 0 0; padding: 0; }
+.research-themes li { padding: 0 0 0 14px; border-left: 2px solid #d7b668; line-height: 1.8; color: #4d6375; }
+.research-themes li strong { display: block; margin-bottom: 5px; color: #163952; }
+.quick-links { display: flex; flex-wrap: wrap; gap: 8px; margin: 22px 0 26px; }
+.quick-link { display: inline-block; padding: 8px 13px; border: 1px solid #cfdae5; border-radius: 7px; font-size: 13px; background: #f7f9fc; color: #254d72; text-decoration: none; transition: background .15s, border-color .15s; }
+.quick-link:first-child { background: #173e61; color: #ffffff; border-color: #173e61; }
+.quick-link:hover { background: #e8f0f7; border-color: #7c9db9; text-decoration: none; color: #173e61; }
+.home-section-title { display: flex; align-items: center; gap: 12px; font-size: 20px; font-weight: 600; color: #163952; margin: 28px 0 17px; }
+.home-section-title::before { content: ''; display: block; width: 4px; height: 21px; border-radius: 2px; background: #ccab5b; }
+#news-list li { margin-bottom: 12px; }
+#news-list li > span:first-child { font-size: 13px; font-variant-numeric: tabular-nums; }
+
+@media (min-width: 1000px) {
+  .site-header > .wrapper { display: flex; align-items: center; justify-content: space-between; min-height: 72px; gap: 25px; }
+  .site-header > .wrapper::after { display: none; }
+  .site-title, .site-nav { float: none; }
+}
+@media (max-width: 600px) {
+  .site-nav { z-index: 10; }
+  .site-nav .page-link { color: #23435d !important; }
+  .site-nav .page-link:hover { color: #8c6b20 !important; }
+  .site-nav .lang-toggle-btn { color: #23435d; background: #f1f6fa; border-color: #c5d4e1; }
+  .home-brand-row { grid-template-columns: minmax(0, 1fr) 60px; gap: 16px; padding-bottom: 19px; }
+  .home-university-mark { width: 60px; }
+  .home-affiliation { font-size: 11px; margin-bottom: 10px; }
+  .home-title { font-size: 27px; }
+  .home-profile { padding: 15px 14px; gap: 10px; }
+  .home-profile-name { font-size: 20px; }
+  .home-profile-position { font-size: 12px; }
+  .home-cv-link { padding: 5px 7px; }
+  .research-themes ul { grid-template-columns: 1fr; gap: 16px; }
 }
