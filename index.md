@@ -127,6 +127,7 @@ layout: home
     News
   </div>
   <ul id="news-list" style="font-size:1rem; line-height:1.7; margin:0; padding-left:1.2rem;">
+    <li><span style="opacity:0.6;">2026.09.17</span>　Selected for the JST <a href="https://www.jst.go.jp/kisoken/presto/" target="_blank">さきがけ（PRESTO）</a> program.</li>
     <li><span style="opacity:0.6;">2026.09.08</span>　Gave an invited talk "Open questions and challenges: Structural Analysis of Chemical Reaction Networks" at the workshop "Dynamical Systems with a Network Structure", Lorentz Center, Leiden, the Netherlands.</li>
     <li><span style="opacity:0.6;">2026.09.07</span>　Gave an invited talk "What can we conclude from network topology of chemical reaction systems?" at the workshop "Dynamical Systems with a Network Structure", Lorentz Center, Leiden, the Netherlands.</li>
     <li><span style="opacity:0.6;">2026.08.27</span>　Gave an invited talk "Multistability in Biochemical Reaction Systems" at the iTHEMS Biology Seminar, RIKEN.</li>
