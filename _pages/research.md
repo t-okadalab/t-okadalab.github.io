@@ -112,7 +112,7 @@ COVID-19のパンデミックは、病原体がどのように地域を越えて
 
 Inside cells, chemical reactions are connected by sharing the same chemical species (reactants and products), forming large-scale networks such as metabolic pathways.
 
-In this research, we developed a theory that predicts—*from the network connectivity alone*—how metabolite concentrations and **reaction fluxes** at steady state change (i.e., sensitivities/responses) when enzyme activities are perturbed.
+In this research, we developed a theory that predicts—*from the network connectivity alone*—how perturbations in enzyme activities change steady-state metabolite concentrations and **reaction fluxes** (i.e., their sensitivities/responses).
 
 We found that nonzero responses exhibit two key properties:
 
@@ -139,7 +139,7 @@ We also showed that buffering structures govern not only perturbation responses 
 
 細胞の中では、化学反応どうしが「同じ物質（反応物や生成物）を共有する」ことでつながっていて、代謝経路のような大きなネットワークを作っています。
 
-この研究では、酵素の働きを少し変えたときに、物質の濃度や**反応の流れ（フラックス）**がどれくらい変化するか（＝感度／応答）を、ネットワークのつながり方だけから予測できる理論を作りました。
+この研究では、酵素の働きを少し変えたときに、物質の濃度や**反応の流れ（フラックス）**がどう変化するか（＝感度／応答）を、ネットワークのつながり方だけから予測できる理論を作りました。
 
 その結果、変化が起きる場所（応答がゼロでない場所）の広がり方には、次の2つの特徴があることが分かりました。
 
