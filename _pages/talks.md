@@ -63,7 +63,7 @@ permalink: /talks/
 
 1. "Structural Determination of Bifurcation and Multistability in Chemical Reaction Networks," Special Session "Dynamical Systems in Mathematical Biology: Epidemiology, Population Dynamics, and Reaction Networks", [AIMS 2026](https://www.aimsconference.org/conferences/2026/index.html), Greece, July 2026.
 
-1. "Distinguishing Multistable States of Chemical Reaction Networks from Network Topology," 理論と実験2026, October 9, 2026.
+1. "Distinguishing Multistable States of Chemical Reaction Networks from Network Topology," 理論と実験2026 (Hiroshima University), October 9, 2026.
 
 ---
 
