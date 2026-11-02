@@ -119,7 +119,7 @@ layout: home
     News
   </div>
   <ul id="news-list" style="font-size:1rem; line-height:1.7; margin:0; padding-left:1.2rem;">
-    <li><span style="opacity:0.6;">2026.10.23</span>　A patent for a metabolic network processing system and method, co-invented by Takashi Okada, was registered (Japanese Patent No. 7944019).</li>
+    <li><span style="opacity:0.6;">2026.10.23</span>　A patent for a metabolic network processing system and method, developed in collaboration with <a href="https://www.hitachi.com/en/" target="_blank">Hitachi, Ltd.</a>, was registered (Japanese Patent No. 7944019).</li>
     <li><span style="opacity:0.6;">2026.10.15</span>　Selected for the JST <a href="https://www.jst.go.jp/program/india/en/" target="_blank">LOTUS Programme</a> (student: Debabrata Mandal; supervisor: Sourav Kumar Sasmal).</li>
     <li><span style="opacity:0.6;">2026.10.09</span>　Gave a talk "Distinguishing Multistable States of Chemical Reaction Networks from Network Topology" at 理論と実験2026 (Hiroshima University).</li>
     <li><span style="opacity:0.6;">2026.09.17</span>　Selected for the JST <a href="https://www.jst.go.jp/kisoken/presto/" target="_blank">さきがけ（PRESTO）</a> program.</li>
